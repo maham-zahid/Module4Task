@@ -158,7 +158,7 @@ class Wp_Book {
 		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_scripts' );
 		$this->loader->add_action( 'init', $plugin_admin, 'register_book_post_type' );
 		$this->loader->add_action( 'init', $plugin_admin,'custom_post_type', 0 );
-
+        $this->loader->add_action( 'init', $plugin_admin,'create_tags_nonhierarchical_taxonomy', 0 );
 	}
 
 	/**
