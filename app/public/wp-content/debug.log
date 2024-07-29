@@ -19,3 +19,99 @@ Stack trace:
 #6 {main}
   thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book-activator.php on line 33
 [29-Jul-2024 06:37:27 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting variable in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\admin\class-wp-book-admin.php on line 105
+[29-Jul-2024 09:26:10 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, second array member is not a valid method in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(700): do_action('init')
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\hp\\Loc...')
+#6 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php on line 324
+[29-Jul-2024 09:26:16 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, second array member is not a valid method in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(700): do_action('init')
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\plugins.php(10): require_once('C:\\Users\\hp\\Loc...')
+#7 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php on line 324
+[29-Jul-2024 09:26:16 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, second array member is not a valid method in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(700): do_action('init')
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-blog-header.php(13): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\index.php(17): require('C:\\Users\\hp\\Loc...')
+#7 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php on line 324
+[29-Jul-2024 09:27:00 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, second array member is not a valid method in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(700): do_action('init')
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\plugins.php(10): require_once('C:\\Users\\hp\\Loc...')
+#7 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php on line 324
+[29-Jul-2024 09:27:00 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, second array member is not a valid method in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(700): do_action('init')
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-blog-header.php(13): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\index.php(17): require('C:\\Users\\hp\\Loc...')
+#7 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php on line 324
+[29-Jul-2024 09:27:04 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, second array member is not a valid method in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(700): do_action('init')
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\plugins.php(10): require_once('C:\\Users\\hp\\Loc...')
+#7 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php on line 324
+[29-Jul-2024 09:27:04 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, second array member is not a valid method in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(700): do_action('init')
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-blog-header.php(13): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\index.php(17): require('C:\\Users\\hp\\Loc...')
+#7 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php on line 324
+[29-Jul-2024 09:39:50 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Wp_Book_Admin does not have a method "create_book_hierarchical_taxonomy" in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(700): do_action('init')
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\hp\\Loc...')
+#6 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php on line 324
+[29-Jul-2024 09:41:51 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Wp_Book_Admin does not have a method "create_book_hierarchical_taxonomy" in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(700): do_action('init')
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\hp\\Loc...')
+#6 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php on line 324
