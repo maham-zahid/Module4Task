@@ -78,6 +78,7 @@ class Wp_Book {
 		$this->set_locale();
 		$this->define_admin_hooks();
 		$this->define_public_hooks();
+		$this->define_public_hooks();
 
 	}
 
@@ -124,7 +125,10 @@ class Wp_Book {
 
 		$this->loader = new Wp_Book_Loader();
 
+		
+
 	}
+
 
 	/**
 	 * Define the locale for this plugin for internationalization.
@@ -183,6 +187,8 @@ class Wp_Book {
 
 		$this->loader->add_action( 'wp_enqueue_scripts', $plugin_public, 'enqueue_styles' );
 		$this->loader->add_action( 'wp_enqueue_scripts', $plugin_public, 'enqueue_scripts' );
+		$plugin_public = new Wp_Book_Public( $this->get_plugin_name(), $this->get_version() );
+		$this->loader->add_action( 'init', $plugin_public, 'register_shortcodes' );
 
 	}
 
