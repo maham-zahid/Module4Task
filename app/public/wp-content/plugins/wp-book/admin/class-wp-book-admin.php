@@ -105,8 +105,9 @@ class Wp_Book_Admin {
 		// CPT Options
 			array(
 				'labels' => array(
-					'name' => __( 'Book' ),
-					'singular_name' => __( 'Book' )
+					'name' => __( 'Books' ),
+					'singular_name' => __( 'Book' ),
+					'add_new' => __( 'Add New' )
 				),
 				'public' => true,
 				'has_archive' => true,
@@ -206,6 +207,101 @@ class Wp_Book_Admin {
 			  ));
 			}
 
+			// Add the metabox functionality at the end of the Wp_Book_Admin class
+public function add_book_metaboxes() {
+    add_meta_box(
+        'wp_book_meta',
+        'Book Information',
+        array($this, 'render_book_meta_box'),
+        'books',
+        'normal',
+        'high'
+    );
+}
 
+public function render_book_meta_box($post) {
+    // Nonce field for security
+    wp_nonce_field( 'save_book_meta', 'book_meta_nonce' );
+
+    // Retrieve current meta data
+    $author_name = get_post_meta( $post->ID, '_author_name', true );
+    $price = get_post_meta( $post->ID, '_price', true );
+    $publisher = get_post_meta( $post->ID, '_publisher', true );
+    $year = get_post_meta( $post->ID, '_year', true );
+    $edition = get_post_meta( $post->ID, '_edition', true );
+    $url = get_post_meta( $post->ID, '_url', true );
+
+    // Display the form fields
+    ?>
+    <table class="form-table">
+                <tr>
+                    <th><label for="author_name">Author Name</label></th>
+                    <td><input type="text" id="author_name" name="author_name" value="<?php echo esc_attr($author_name); ?>" class="regular-text"></td>
+                </tr>
+                <tr>
+                    <th><label for="price">Price</label></th>
+                    <td><input type="text" id="price" name="price" value="<?php echo esc_attr($price); ?>" class="regular-text"></td>
+                </tr>
+                <tr>
+                    <th><label for="publisher">Publisher</label></th>
+                    <td><input type="text" id="publisher" name="publisher" value="<?php echo esc_attr($publisher); ?>" class="regular-text"></td>
+                </tr>
+                <tr>
+                    <th><label for="year">Year</label></th>
+                    <td><input type="text" id="year" name="year" value="<?php echo esc_attr($year); ?>" class="regular-text"></td>
+                </tr>
+                <tr>
+                    <th><label for="edition">Edition</label></th>
+                    <td><input type="text" id="edition" name="edition" value="<?php echo esc_attr($edition); ?>" class="regular-text"></td>
+                </tr>
+                <tr>
+                    <th><label for="url">URL</label></th>
+                    <td><input type="text" id="url" name="url" value="<?php echo esc_attr($url); ?>" class="regular-text"></td>
+                </tr>
+            </table>
+    <?php
+}
+
+public function save_book_meta($post_id) {
+    // Check if nonce is set
+    if ( ! isset( $_POST['book_meta_nonce'] ) ) {
+        return $post_id;
+    }
+
+    $nonce = $_POST['book_meta_nonce'];
+
+    // Verify nonce
+    if ( ! wp_verify_nonce( $nonce, 'save_book_meta' ) ) {
+        return $post_id;
+    }
+
+    // Check for autosave
+    if ( defined( 'DOING_AUTOSAVE' ) && DOING_AUTOSAVE ) {
+        return $post_id;
+    }
+
+    // Check user permissions
+    if ( 'books' == $_POST['post_type'] ) {
+        if ( ! current_user_can( 'edit_post', $post_id ) ) {
+            return $post_id;
+        }
+    }
+
+    // Sanitize user input
+    $author_name = sanitize_text_field( $_POST['author_name'] );
+    $price = sanitize_text_field( $_POST['price'] );
+    $publisher = sanitize_text_field( $_POST['publisher'] );
+    $year = sanitize_text_field( $_POST['year'] );
+    $edition = sanitize_text_field( $_POST['edition'] );
+    $url = sanitize_text_field( $_POST['url'] );
+
+    // Update the meta fields
+    update_post_meta( $post_id, '_author_name', $author_name );
+    update_post_meta( $post_id, '_price', $price );
+    update_post_meta( $post_id, '_publisher', $publisher );
+    update_post_meta( $post_id, '_year', $year );
+    update_post_meta( $post_id, '_edition', $edition );
+    update_post_meta( $post_id, '_url', $url );
+}
 
 }

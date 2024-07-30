@@ -159,7 +159,15 @@ class Wp_Book {
 		$this->loader->add_action( 'init', $plugin_admin, 'register_book_post_type' );
 		$this->loader->add_action( 'init', $plugin_admin,'custom_post_type', 0 );
         $this->loader->add_action( 'init', $plugin_admin,'create_tags_nonhierarchical_taxonomy', 0 );
-	}
+		
+		// Adding the metaboxes
+		$this->loader->add_action( 'add_meta_boxes', $plugin_admin, 'add_book_metaboxes' );
+		$this->loader->add_action( 'save_post', $plugin_admin, 'save_book_meta' );
+	
+		}
+		
+	    
+	
 
 	/**
 	 * Register all of the hooks related to the public-facing functionality
