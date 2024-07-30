@@ -304,4 +304,71 @@ public function save_book_meta($post_id) {
     update_post_meta( $post_id, '_url', $url );
 }
 
+// Add this function to your Wp_Book_Admin class
+
+public function add_settings_menu() {
+    add_submenu_page(
+        'edit.php?post_type=books', // Parent menu slug
+        'Book Settings', // Page title
+        'Settings', // Menu title
+        'manage_options', // Capability
+        'book-settings', // Menu slug
+        array($this, 'display_settings_page') // Callback function
+    );
+}
+public function display_settings_page() {
+    ?>
+    <div class="wrap">
+        <h1>Book Settings</h1>
+        <form method="post" action="options.php">
+            <?php
+            settings_fields('book_settings_group'); // Settings group
+            do_settings_sections('book-settings'); // Settings page
+            submit_button();
+            ?>
+        </form>
+    </div>
+    <?php
+}
+public function register_settings() {
+    // Register settings
+    register_setting('book_settings_group', 'book_currency');
+    register_setting('book_settings_group', 'books_per_page');
+
+    // Add settings section
+    add_settings_section(
+        'book_settings_section',
+        'General Settings',
+        null,
+        'book-settings'
+    );
+
+    // Add settings fields
+    add_settings_field(
+        'book_currency',
+        'Currency',
+        array($this, 'currency_field_callback'),
+        'book-settings',
+        'book_settings_section'
+    );
+
+    add_settings_field(
+        'books_per_page',
+        'Books Per Page',
+        array($this, 'books_per_page_field_callback'),
+        'book-settings',
+        'book_settings_section'
+    );
+}
+
+public function currency_field_callback() {
+    $currency = get_option('book_currency', 'USD');
+    echo '<input type="text" name="book_currency" value="' . esc_attr($currency) . '" />';
+}
+
+public function books_per_page_field_callback() {
+    $books_per_page = get_option('books_per_page', 10);
+    echo '<input type="number" name="books_per_page" value="' . esc_attr($books_per_page) . '" min="1" />';
+}
+
 }
