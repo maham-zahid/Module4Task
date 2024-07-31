@@ -123,6 +123,8 @@ class Wp_Book {
 		 */
 		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'public/class-wp-book-public.php';
 
+		//require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/wp-book-activator.php';
+
 		$this->loader = new Wp_Book_Loader();
 
 		

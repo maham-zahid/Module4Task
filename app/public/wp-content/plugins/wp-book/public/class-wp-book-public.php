@@ -199,5 +199,33 @@ class Wp_Book_Public {
 		return ob_get_clean();
 	}
 	
+	/**
+     * Display book meta information.
+     *
+     * @param    int    $book_id    The ID of the book.
+     * @since    1.0.0
+     */
+    public function display_book_meta( $book_id ) {
+        $book_meta = $this->get_book_meta( $book_id );
+
+        if ( $book_meta ) {
+            foreach ( $book_meta as $meta ) {
+                echo '<p>' . esc_html( $meta->meta_key ) . ': ' . esc_html( $meta->meta_value ) . '</p>';
+            }
+        }
+    }
+
+    /**
+     * Get book meta information.
+     *
+     * @param    int    $book_id    The ID of the book.
+     * @return   array   The book meta information.
+     * @since    1.0.0
+     */
+    private function get_book_meta( $book_id ) {
+        global $wpdb;
+        $table_name = $wpdb->prefix . 'book_meta';
+        return $wpdb->get_results( $wpdb->prepare( "SELECT meta_key, meta_value FROM $table_name WHERE book_id = %d", $book_id ) );
+    }
 
 }

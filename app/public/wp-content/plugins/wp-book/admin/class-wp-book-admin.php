@@ -230,6 +230,7 @@ public function render_book_meta_box($post) {
     wp_nonce_field( 'save_book_meta', 'book_meta_nonce' );
 
     // Retrieve current meta data
+    $book_name = get_post_meta( $post->ID, '_book_name', true );
     $author_name = get_post_meta( $post->ID, '_author_name', true );
     $price = get_post_meta( $post->ID, '_price', true );
     $publisher = get_post_meta( $post->ID, '_publisher', true );
@@ -240,6 +241,10 @@ public function render_book_meta_box($post) {
     // Display the form fields
     ?>
     <table class="form-table">
+                <tr>
+                    <th><label for="book_name">Book Name</label></th>
+                    <td><input type="text" id="book_name" name="book_name" value="<?php echo esc_attr($book_name); ?>" class="regular-text"></td>
+                </tr>
                 <tr>
                     <th><label for="author_name">Author Name</label></th>
                     <td><input type="text" id="author_name" name="author_name" value="<?php echo esc_attr($author_name); ?>" class="regular-text"></td>
@@ -294,6 +299,7 @@ public function save_book_meta($post_id) {
     }
 
     // Sanitize user input
+    $book_name = sanitize_text_field( $_POST['book_name'] );
     $author_name = sanitize_text_field( $_POST['author_name'] );
     $price = sanitize_text_field( $_POST['price'] );
     $publisher = sanitize_text_field( $_POST['publisher'] );
@@ -302,6 +308,7 @@ public function save_book_meta($post_id) {
     $url = sanitize_text_field( $_POST['url'] );
 
     // Update the meta fields
+    update_post_meta( $post_id, '_book_name', $book_name );
     update_post_meta( $post_id, '_author_name', $author_name );
     update_post_meta( $post_id, '_price', $price );
     update_post_meta( $post_id, '_publisher', $publisher );
@@ -377,6 +384,89 @@ public function books_per_page_field_callback() {
     $books_per_page = get_option('books_per_page', 10);
     echo '<input type="number" name="books_per_page" value="' . esc_attr($books_per_page) . '" min="1" />';
 }
+
+public function add_book_meta($book_id, $meta_key, $meta_value) {
+    global $wpdb;
+    $table_name = $wpdb->prefix . 'book_meta';
+
+    $wpdb->insert(
+        $table_name,
+        array(
+            'book_id' => $book_id,
+            'meta_key' => $meta_key,
+            'meta_value' => $meta_value
+        ),
+        array('%d', '%s', '%s')
+    );
+}
+
+public function update_book_meta($book_id, $meta_key, $meta_value) {
+    global $wpdb;
+    $table_name = $wpdb->prefix . 'book_meta';
+
+    $wpdb->update(
+        $table_name,
+        array('meta_value' => $meta_value),
+        array(
+            'book_id' => $book_id,
+            'meta_key' => $meta_key
+        ),
+        array('%s'),
+        array('%d', '%s')
+    );
+}
+
+public function get_book_meta($book_id, $meta_key = '') {
+    global $wpdb;
+    $table_name = $wpdb->prefix . 'book_meta';
+
+    if ($meta_key) {
+        $query = $wpdb->prepare(
+            "SELECT meta_value FROM $table_name WHERE book_id = %d AND meta_key = %s",
+            $book_id,
+            $meta_key
+        );
+        return $wpdb->get_var($query);
+    } else {
+        $query = $wpdb->prepare(
+            "SELECT meta_key, meta_value FROM $table_name WHERE book_id = %d",
+            $book_id
+        );
+        return $wpdb->get_results($query);
+    }
+}
+
+public function delete_book_meta($book_id, $meta_key) {
+    global $wpdb;
+    $table_name = $wpdb->prefix . 'book_meta';
+
+    $wpdb->delete(
+        $table_name,
+        array(
+            'book_id' => $book_id,
+            'meta_key' => $meta_key
+        ),
+        array('%d', '%s')
+    );
+}
+
+public function save_bookdetails_fields($post_id) {
+    // Check for nonce security, autosave, etc.
+
+    if (isset($_POST['book_meta'])) {
+        $book_meta = $_POST['book_meta']; // Assuming data is coming from form inputs
+
+        foreach ($book_meta as $meta_key => $meta_value) {
+            if ($this->get_book_meta($post_id, $meta_key)) {
+                $this->update_book_meta($post_id, $meta_key, $meta_value);
+            } else {
+                $this->add_book_meta($post_id, $meta_key, $meta_value);
+            }
+        }
+    }
+}
+
+
 }
 
 class WP_Book_Books_Widget extends WP_Widget
@@ -452,4 +542,3 @@ class WP_Book_Books_Widget extends WP_Widget
         return $instance;
     }
 }
-

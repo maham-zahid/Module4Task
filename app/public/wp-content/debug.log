@@ -2194,3 +2194,54 @@ Stack trace:
 #10 C:\Users\hp\Local Sites\customplugin\app\public\index.php(17): require('C:\\Users\\hp\\Loc...')
 #11 {main}
   thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php on line 324
+[31-Jul-2024 06:22:08 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book/includes/wp-book-activator.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 126
+[31-Jul-2024 06:22:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book/includes/wp-book-activator.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:126
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\hp\\Loc...')
+#7 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 126
+[31-Jul-2024 06:24:09 UTC] PHP Fatal error:  Cannot declare class Wp_Book_Admin, because the name is already in use in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\admin\class-wp-book-admin.php on line 457
+[31-Jul-2024 06:26:10 UTC] PHP Fatal error:  Cannot declare class Wp_Book_Admin, because the name is already in use in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\admin\class-wp-book-admin.php on line 457
+[31-Jul-2024 06:28:11 UTC] PHP Fatal error:  Cannot declare class Wp_Book_Admin, because the name is already in use in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\admin\class-wp-book-admin.php on line 457
+[31-Jul-2024 06:34:21 UTC] PHP Fatal error:  Cannot declare class Wp_Book_Admin, because the name is already in use in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\admin\class-wp-book-admin.php on line 457
+[31-Jul-2024 06:34:25 UTC] PHP Fatal error:  Cannot declare class Wp_Book_Admin, because the name is already in use in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\admin\class-wp-book-admin.php on line 457
+[31-Jul-2024 06:34:28 UTC] PHP Fatal error:  Cannot declare class Wp_Book_Admin, because the name is already in use in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\admin\class-wp-book-admin.php on line 457
+[31-Jul-2024 06:34:28 UTC] PHP Fatal error:  Cannot declare class Wp_Book_Admin, because the name is already in use in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\admin\class-wp-book-admin.php on line 457
+[31-Jul-2024 06:36:22 UTC] PHP Fatal error:  Cannot redeclare Wp_Book_Admin::$plugin_name in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\admin\class-wp-book-admin.php on line 382
+[31-Jul-2024 06:36:22 UTC] PHP Fatal error:  Cannot redeclare Wp_Book_Admin::$plugin_name in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\admin\class-wp-book-admin.php on line 382
+[31-Jul-2024 07:03:55 UTC] PHP Fatal error:  Cannot declare class Wp_Book_Admin, because the name is already in use in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\admin\class-wp-book-admin.php on line 460
+[31-Jul-2024 07:03:55 UTC] PHP Fatal error:  Cannot declare class Wp_Book_Admin, because the name is already in use in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\admin\class-wp-book-admin.php on line 460
+[31-Jul-2024 07:03:56 UTC] PHP Fatal error:  Cannot declare class Wp_Book_Admin, because the name is already in use in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\admin\class-wp-book-admin.php on line 460
+[31-Jul-2024 07:03:56 UTC] PHP Fatal error:  Cannot declare class Wp_Book_Admin, because the name is already in use in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\admin\class-wp-book-admin.php on line 460
+[31-Jul-2024 07:19:16 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book/includes/wp-book-activator.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 126
+[31-Jul-2024 07:19:16 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book/includes/wp-book-activator.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:126
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\plugins.php(10): require_once('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 126
+[31-Jul-2024 07:19:16 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book/includes/wp-book-activator.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 126
+[31-Jul-2024 07:19:16 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book/includes/wp-book-activator.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:126
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-blog-header.php(13): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\index.php(17): require('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 126
