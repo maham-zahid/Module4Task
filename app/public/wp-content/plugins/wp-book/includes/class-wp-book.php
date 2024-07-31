@@ -169,8 +169,9 @@ class Wp_Book {
 		$this->loader->add_action( 'save_post', $plugin_admin, 'save_book_meta' );
 		$this->loader->add_action('admin_menu', $plugin_admin, 'add_settings_menu');
         $this->loader->add_action('admin_init', $plugin_admin, 'register_settings');
-        $this->loader->add_action( 'widgets_init', $plugin_admin, 'register_widgets' );
-	
+        $this->loader->add_action( 'widgets_init',$plugin_admin, 'register_widgets' );
+	    $this->loader->add_action('wp_dashboard_setup', $plugin_admin, array($this, 'register_top_categories_dashboard_widget'));
+	    
 		}
 		
 	    

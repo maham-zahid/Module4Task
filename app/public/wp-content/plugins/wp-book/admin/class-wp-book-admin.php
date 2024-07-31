@@ -104,6 +104,7 @@ class Wp_Book_Admin {
 	public function register_widgets()
     {
         register_widget('WP_Book_Books_Widget');
+        register_widget('WP_Book_Top_Tags_Widget');
     }
 
 	public function register_book_post_type() {
@@ -434,6 +435,7 @@ public function get_book_meta($book_id, $meta_key = '') {
         );
         return $wpdb->get_results($query);
     }
+    
 }
 
 public function delete_book_meta($book_id, $meta_key) {
@@ -465,7 +467,6 @@ public function save_bookdetails_fields($post_id) {
         }
     }
 }
-
 
 }
 
@@ -542,3 +543,63 @@ class WP_Book_Books_Widget extends WP_Widget
         return $instance;
     }
 }
+
+class WP_Book_Top_Tags_Widget extends WP_Widget
+{
+    public function __construct()
+    {
+        parent::__construct(
+            'wp_book_top_tags_widget', // Base ID
+            __('Top Tags by Post Count', 'wp-book'), // Name
+            array('description' => __('Displays top tags by post count', 'wp-book')) // Args
+        );
+    }
+
+    public function widget($args, $instance)
+    {
+        $static_title = __('Top Tags by Post Count', 'wp-book');
+
+        echo $args['before_widget'];
+        echo $args['before_title'] . $static_title . $args['after_title'];
+
+        $tags = get_terms(array(
+            'taxonomy' => 'tags',
+            'orderby' => 'count',
+            'order' => 'DESC',
+            'number' => 5,
+        ));
+
+        if (!empty($tags) && !is_wp_error($tags)) {
+            echo '<ul>';
+            foreach ($tags as $tag) {
+                echo '<li>' . esc_html($tag->name) . ' (' . esc_html($tag->count) . ' posts)</li>';
+            }
+            echo '</ul>';
+        } else {
+            echo '<p>' . __('No tags found.', 'wp-book') . '</p>';
+        }
+
+        echo $args['after_widget'];
+    }
+
+    public function form($instance)
+    {
+        // Optionally, you can allow a custom title, but it won't be used in the widget output
+        $title = !empty($instance['title']) ? $instance['title'] : '';
+        ?>
+        <p>
+            <label for="<?php echo $this->get_field_id('title'); ?>"><?php _e('Title (not used):', 'wp-book'); ?></label>
+            <input class="widefat" id="<?php echo $this->get_field_id('title'); ?>" name="<?php echo $this->get_field_name('title'); ?>" type="text" value="<?php echo esc_attr($title); ?>" disabled>
+        </p>
+        <?php
+    }
+
+    public function update($new_instance, $old_instance)
+    {
+        $instance = array();
+        $instance['title'] = (!empty($new_instance['title'])) ? strip_tags($new_instance['title']) : '';
+
+        return $instance;
+    }
+}
+
