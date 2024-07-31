@@ -709,3 +709,1488 @@ Stack trace:
 #7 C:\Users\hp\Local Sites\customplugin\app\public\index.php(17): require('C:\\Users\\hp\\Loc...')
 #8 {main}
   thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 129
+[30-Jul-2024 07:30:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function register() on null in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\widgets.php:123
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(207): register_widget('Wp_Book_Widget')
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(195): Wp_Book->register_widgets()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(80): Wp_Book->define_public_hooks()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#8 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\hp\\Loc...')
+#9 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\widgets.php on line 123
+[30-Jul-2024 07:30:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function register() on null in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\widgets.php:123
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(207): register_widget('Wp_Book_Widget')
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(195): Wp_Book->register_widgets()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(80): Wp_Book->define_public_hooks()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#8 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\hp\\Loc...')
+#9 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\widgets.php on line 123
+[30-Jul-2024 07:30:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function register() on null in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\widgets.php:123
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(207): register_widget('Wp_Book_Widget')
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(195): Wp_Book->register_widgets()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(80): Wp_Book->define_public_hooks()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#8 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\hp\\Loc...')
+#9 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\hp\\Loc...')
+#10 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\widgets.php on line 123
+[30-Jul-2024 07:31:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function register() on null in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\widgets.php:123
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(207): register_widget('Wp_Book_Widget')
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(195): Wp_Book->register_widgets()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(80): Wp_Book->define_public_hooks()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#8 C:\Users\hp\Local Sites\customplugin\app\public\wp-blog-header.php(13): require_once('C:\\Users\\hp\\Loc...')
+#9 C:\Users\hp\Local Sites\customplugin\app\public\index.php(17): require('C:\\Users\\hp\\Loc...')
+#10 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\widgets.php on line 123
+[30-Jul-2024 07:32:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function register() on null in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\widgets.php:123
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(208): register_widget('Wp_Book_Widget')
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(196): Wp_Book->register_widgets()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(80): Wp_Book->define_public_hooks()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#8 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\hp\\Loc...')
+#9 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\hp\\Loc...')
+#10 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\widgets.php on line 123
+[30-Jul-2024 07:32:17 UTC] PHP Fatal error:  Uncaught Error: Call to a member function register() on null in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\widgets.php:123
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(208): register_widget('Wp_Book_Widget')
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(196): Wp_Book->register_widgets()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(80): Wp_Book->define_public_hooks()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#8 C:\Users\hp\Local Sites\customplugin\app\public\wp-blog-header.php(13): require_once('C:\\Users\\hp\\Loc...')
+#9 C:\Users\hp\Local Sites\customplugin\app\public\index.php(17): require('C:\\Users\\hp\\Loc...')
+#10 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\widgets.php on line 123
+[30-Jul-2024 07:32:17 UTC] PHP Fatal error:  Uncaught Error: Call to a member function register() on null in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\widgets.php:123
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(208): register_widget('Wp_Book_Widget')
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(196): Wp_Book->register_widgets()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(80): Wp_Book->define_public_hooks()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#8 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\hp\\Loc...')
+#9 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\hp\\Loc...')
+#10 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\widgets.php on line 123
+[30-Jul-2024 07:32:18 UTC] PHP Fatal error:  Uncaught Error: Call to a member function register() on null in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\widgets.php:123
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(208): register_widget('Wp_Book_Widget')
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(196): Wp_Book->register_widgets()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(80): Wp_Book->define_public_hooks()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#8 C:\Users\hp\Local Sites\customplugin\app\public\wp-blog-header.php(13): require_once('C:\\Users\\hp\\Loc...')
+#9 C:\Users\hp\Local Sites\customplugin\app\public\index.php(17): require('C:\\Users\\hp\\Loc...')
+#10 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\widgets.php on line 123
+[30-Jul-2024 07:34:34 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Wp_Book_Admin does not have a method "register_widgets" in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\widgets.php(1870): do_action('widgets_init')
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(324): wp_widgets_init('')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(700): do_action('init')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#8 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#9 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\hp\\Loc...')
+#10 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\hp\\Loc...')
+#11 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php on line 324
+[30-Jul-2024 07:34:35 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Wp_Book_Admin does not have a method "register_widgets" in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\widgets.php(1870): do_action('widgets_init')
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(324): wp_widgets_init('')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(700): do_action('init')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#8 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#9 C:\Users\hp\Local Sites\customplugin\app\public\wp-blog-header.php(13): require_once('C:\\Users\\hp\\Loc...')
+#10 C:\Users\hp\Local Sites\customplugin\app\public\index.php(17): require('C:\\Users\\hp\\Loc...')
+#11 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php on line 324
+[30-Jul-2024 07:34:36 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Wp_Book_Admin does not have a method "register_widgets" in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\widgets.php(1870): do_action('widgets_init')
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(324): wp_widgets_init('')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(700): do_action('init')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#8 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#9 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\hp\\Loc...')
+#10 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\hp\\Loc...')
+#11 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php on line 324
+[30-Jul-2024 07:34:36 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Wp_Book_Admin does not have a method "register_widgets" in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\widgets.php(1870): do_action('widgets_init')
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(324): wp_widgets_init('')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(700): do_action('init')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#8 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#9 C:\Users\hp\Local Sites\customplugin\app\public\wp-blog-header.php(13): require_once('C:\\Users\\hp\\Loc...')
+#10 C:\Users\hp\Local Sites\customplugin\app\public\index.php(17): require('C:\\Users\\hp\\Loc...')
+#11 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php on line 324
+[30-Jul-2024 07:35:05 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Wp_Book_Admin does not have a method "register_widgets" in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\widgets.php(1870): do_action('widgets_init')
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(324): wp_widgets_init('')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(700): do_action('init')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#8 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#9 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\hp\\Loc...')
+#10 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\hp\\Loc...')
+#11 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php on line 324
+[30-Jul-2024 07:35:05 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Wp_Book_Admin does not have a method "register_widgets" in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\widgets.php(1870): do_action('widgets_init')
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(324): wp_widgets_init('')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(700): do_action('init')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#8 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#9 C:\Users\hp\Local Sites\customplugin\app\public\wp-blog-header.php(13): require_once('C:\\Users\\hp\\Loc...')
+#10 C:\Users\hp\Local Sites\customplugin\app\public\index.php(17): require('C:\\Users\\hp\\Loc...')
+#11 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php on line 324
+[30-Jul-2024 07:37:28 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Wp_Book_Admin does not have a method "register_widgets" in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\widgets.php(1870): do_action('widgets_init')
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(324): wp_widgets_init('')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(700): do_action('init')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#8 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#9 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\hp\\Loc...')
+#10 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\hp\\Loc...')
+#11 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php on line 324
+[30-Jul-2024 07:37:28 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Wp_Book_Admin does not have a method "register_widgets" in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\widgets.php(1870): do_action('widgets_init')
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(324): wp_widgets_init('')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(700): do_action('init')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#8 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#9 C:\Users\hp\Local Sites\customplugin\app\public\wp-blog-header.php(13): require_once('C:\\Users\\hp\\Loc...')
+#10 C:\Users\hp\Local Sites\customplugin\app\public\index.php(17): require('C:\\Users\\hp\\Loc...')
+#11 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php on line 324
+[30-Jul-2024 07:37:31 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Wp_Book_Admin does not have a method "register_widgets" in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\widgets.php(1870): do_action('widgets_init')
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(324): wp_widgets_init('')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(700): do_action('init')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#8 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#9 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\hp\\Loc...')
+#10 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\hp\\Loc...')
+#11 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php on line 324
+[30-Jul-2024 07:37:31 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Wp_Book_Admin does not have a method "register_widgets" in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\widgets.php(1870): do_action('widgets_init')
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(324): wp_widgets_init('')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(700): do_action('init')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#8 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#9 C:\Users\hp\Local Sites\customplugin\app\public\wp-blog-header.php(13): require_once('C:\\Users\\hp\\Loc...')
+#10 C:\Users\hp\Local Sites\customplugin\app\public\index.php(17): require('C:\\Users\\hp\\Loc...')
+#11 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php on line 324
+[30-Jul-2024 07:55:45 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/includes/class-wp-book-post-types.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 128
+[30-Jul-2024 07:55:45 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/includes/class-wp-book-post-types.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:128
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\hp\\Loc...')
+#7 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 128
+[30-Jul-2024 07:55:46 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/includes/class-wp-book-post-types.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 128
+[30-Jul-2024 07:55:46 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/includes/class-wp-book-post-types.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:128
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 128
+[30-Jul-2024 07:55:46 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/includes/class-wp-book-post-types.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 128
+[30-Jul-2024 07:55:46 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/includes/class-wp-book-post-types.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:128
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-blog-header.php(13): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\index.php(17): require('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 128
+[30-Jul-2024 07:56:05 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/includes/class-wp-book-post-types.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 128
+[30-Jul-2024 07:56:05 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/includes/class-wp-book-post-types.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:128
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 128
+[30-Jul-2024 07:56:05 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/includes/class-wp-book-post-types.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 128
+[30-Jul-2024 07:56:05 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/includes/class-wp-book-post-types.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:128
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-blog-header.php(13): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\index.php(17): require('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 128
+[30-Jul-2024 07:59:14 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/includes/class-wp-book-post-types.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 128
+[30-Jul-2024 07:59:14 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/includes/class-wp-book-post-types.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:128
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 128
+[30-Jul-2024 07:59:14 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/includes/class-wp-book-post-types.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 128
+[30-Jul-2024 07:59:14 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/includes/class-wp-book-post-types.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:128
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-blog-header.php(13): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\index.php(17): require('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 128
+[30-Jul-2024 07:59:15 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/includes/class-wp-book-post-types.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 128
+[30-Jul-2024 07:59:15 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/includes/class-wp-book-post-types.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:128
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 128
+[30-Jul-2024 07:59:15 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/includes/class-wp-book-post-types.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 128
+[30-Jul-2024 07:59:15 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/includes/class-wp-book-post-types.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:128
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-blog-header.php(13): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\index.php(17): require('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 128
+[30-Jul-2024 09:29:54 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/includes/class-wp-book-activator.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 127
+[30-Jul-2024 09:29:54 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/includes/class-wp-book-activator.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:127
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\hp\\Loc...')
+#7 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 127
+[30-Jul-2024 09:29:55 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/includes/class-wp-book-activator.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 127
+[30-Jul-2024 09:29:55 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/includes/class-wp-book-activator.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:127
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 127
+[30-Jul-2024 09:29:55 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/includes/class-wp-book-activator.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 127
+[30-Jul-2024 09:29:55 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/includes/class-wp-book-activator.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:127
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-blog-header.php(13): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\index.php(17): require('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 127
+[30-Jul-2024 09:29:57 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/includes/class-wp-book-activator.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 127
+[30-Jul-2024 09:29:57 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/includes/class-wp-book-activator.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:127
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 127
+[30-Jul-2024 09:29:57 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/includes/class-wp-book-activator.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 127
+[30-Jul-2024 09:29:57 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/includes/class-wp-book-activator.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:127
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-blog-header.php(13): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\index.php(17): require('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 127
+[30-Jul-2024 09:31:06 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 133
+[30-Jul-2024 09:31:06 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:133
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 133
+[30-Jul-2024 09:31:06 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 133
+[30-Jul-2024 09:31:06 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:133
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-blog-header.php(13): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\index.php(17): require('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 133
+[30-Jul-2024 09:31:07 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 133
+[30-Jul-2024 09:31:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:133
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 133
+[30-Jul-2024 09:31:07 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 133
+[30-Jul-2024 09:31:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:133
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-blog-header.php(13): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\index.php(17): require('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 133
+[30-Jul-2024 09:33:34 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/class-wp-book-admin.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 133
+[30-Jul-2024 09:33:34 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/class-wp-book-admin.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:133
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 133
+[30-Jul-2024 09:33:34 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/class-wp-book-admin.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 133
+[30-Jul-2024 09:33:34 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/class-wp-book-admin.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:133
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-blog-header.php(13): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\index.php(17): require('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 133
+[30-Jul-2024 09:33:35 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/class-wp-book-admin.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 133
+[30-Jul-2024 09:33:35 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/class-wp-book-admin.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:133
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 133
+[30-Jul-2024 09:33:35 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/class-wp-book-admin.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 133
+[30-Jul-2024 09:33:35 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/class-wp-book-admin.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:133
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-blog-header.php(13): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\index.php(17): require('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 133
+[30-Jul-2024 09:39:57 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/includes/class-wp-book-activator.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 127
+[30-Jul-2024 09:39:57 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/includes/class-wp-book-activator.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:127
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 127
+[30-Jul-2024 09:39:57 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/includes/class-wp-book-activator.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 127
+[30-Jul-2024 09:39:57 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/includes/class-wp-book-activator.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:127
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-blog-header.php(13): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\index.php(17): require('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 127
+[30-Jul-2024 09:39:58 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/includes/class-wp-book-activator.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 127
+[30-Jul-2024 09:39:58 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/includes/class-wp-book-activator.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:127
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 127
+[30-Jul-2024 09:39:58 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/includes/class-wp-book-activator.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 127
+[30-Jul-2024 09:39:58 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/includes/class-wp-book-activator.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:127
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-blog-header.php(13): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\index.php(17): require('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 127
+[30-Jul-2024 09:39:58 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/includes/class-wp-book-activator.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 127
+[30-Jul-2024 09:39:58 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/includes/class-wp-book-activator.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:127
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 127
+[30-Jul-2024 09:39:58 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/includes/class-wp-book-activator.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 127
+[30-Jul-2024 09:39:58 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/includes/class-wp-book-activator.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:127
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-blog-header.php(13): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\index.php(17): require('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 127
+[30-Jul-2024 09:39:58 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/includes/class-wp-book-activator.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 127
+[30-Jul-2024 09:39:58 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/includes/class-wp-book-activator.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:127
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 127
+[30-Jul-2024 09:39:59 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/includes/class-wp-book-activator.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 127
+[30-Jul-2024 09:39:59 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/includes/class-wp-book-activator.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:127
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-blog-header.php(13): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\index.php(17): require('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 127
+[30-Jul-2024 09:39:59 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/includes/class-wp-book-activator.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 127
+[30-Jul-2024 09:39:59 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/includes/class-wp-book-activator.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:127
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 127
+[30-Jul-2024 09:39:59 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/includes/class-wp-book-activator.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 127
+[30-Jul-2024 09:39:59 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/includes/class-wp-book-activator.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:127
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-blog-header.php(13): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\index.php(17): require('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 127
+[30-Jul-2024 09:41:15 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/includes/class-wp-book-activator.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 127
+[30-Jul-2024 09:41:15 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/includes/class-wp-book-activator.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:127
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 127
+[30-Jul-2024 09:41:15 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/includes/class-wp-book-activator.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 127
+[30-Jul-2024 09:41:15 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/includes/class-wp-book-activator.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:127
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-blog-header.php(13): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\index.php(17): require('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 127
+[30-Jul-2024 09:41:16 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/includes/class-wp-book-activator.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 127
+[30-Jul-2024 09:41:16 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/includes/class-wp-book-activator.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:127
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 127
+[30-Jul-2024 09:41:16 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/includes/class-wp-book-activator.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 127
+[30-Jul-2024 09:41:16 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/includes/class-wp-book-activator.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:127
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-blog-header.php(13): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\index.php(17): require('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 127
+[30-Jul-2024 09:42:23 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 134
+[30-Jul-2024 09:42:23 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:134
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 134
+[30-Jul-2024 09:42:23 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 134
+[30-Jul-2024 09:42:23 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:134
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-blog-header.php(13): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\index.php(17): require('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 134
+[30-Jul-2024 09:43:34 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 134
+[30-Jul-2024 09:43:34 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:134
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 134
+[30-Jul-2024 09:43:34 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 134
+[30-Jul-2024 09:43:34 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:134
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-blog-header.php(13): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\index.php(17): require('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 134
+[30-Jul-2024 09:43:35 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 134
+[30-Jul-2024 09:43:35 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:134
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 134
+[30-Jul-2024 09:43:35 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 134
+[30-Jul-2024 09:43:35 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:134
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-blog-header.php(13): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\index.php(17): require('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 134
+[30-Jul-2024 09:45:04 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 118
+[30-Jul-2024 09:45:04 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:118
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 118
+[30-Jul-2024 09:45:04 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 118
+[30-Jul-2024 09:45:04 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:118
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-blog-header.php(13): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\index.php(17): require('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 118
+[30-Jul-2024 09:45:05 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 118
+[30-Jul-2024 09:45:05 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:118
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 118
+[30-Jul-2024 09:45:05 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 118
+[30-Jul-2024 09:45:05 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:118
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-blog-header.php(13): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\index.php(17): require('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 118
+[30-Jul-2024 09:47:53 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 118
+[30-Jul-2024 09:47:53 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:118
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 118
+[30-Jul-2024 09:47:53 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 118
+[30-Jul-2024 09:47:53 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:118
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-blog-header.php(13): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\index.php(17): require('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 118
+[30-Jul-2024 09:47:54 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 118
+[30-Jul-2024 09:47:54 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:118
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 118
+[30-Jul-2024 09:47:54 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 118
+[30-Jul-2024 09:47:54 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:118
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-blog-header.php(13): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\index.php(17): require('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 118
+[30-Jul-2024 09:48:29 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 118
+[30-Jul-2024 09:48:29 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:118
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 118
+[30-Jul-2024 09:48:29 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 118
+[30-Jul-2024 09:48:29 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:118
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-blog-header.php(13): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\index.php(17): require('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 118
+[30-Jul-2024 09:48:30 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 118
+[30-Jul-2024 09:48:30 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:118
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 118
+[30-Jul-2024 09:48:30 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 118
+[30-Jul-2024 09:48:30 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:118
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-blog-header.php(13): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\index.php(17): require('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 118
+[30-Jul-2024 10:12:23 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 118
+[30-Jul-2024 10:12:23 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:118
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 118
+[30-Jul-2024 10:12:24 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 118
+[30-Jul-2024 10:12:24 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:118
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-blog-header.php(13): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\index.php(17): require('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 118
+[30-Jul-2024 10:15:53 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 136
+[30-Jul-2024 10:15:53 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:136
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 136
+[30-Jul-2024 10:15:53 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 136
+[30-Jul-2024 10:15:53 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:136
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-blog-header.php(13): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\index.php(17): require('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 136
+[30-Jul-2024 10:15:54 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 136
+[30-Jul-2024 10:15:54 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:136
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 136
+[30-Jul-2024 10:15:54 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 136
+[30-Jul-2024 10:15:54 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:136
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-blog-header.php(13): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\index.php(17): require('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 136
+[30-Jul-2024 10:17:48 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book/../admin/class-wp-book-admin.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 119
+[30-Jul-2024 10:17:48 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book/../admin/class-wp-book-admin.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:119
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 119
+[30-Jul-2024 10:17:48 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book/../admin/class-wp-book-admin.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 119
+[30-Jul-2024 10:17:48 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book/../admin/class-wp-book-admin.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:119
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-blog-header.php(13): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\index.php(17): require('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 119
+[30-Jul-2024 10:17:49 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book/../admin/class-wp-book-admin.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 119
+[30-Jul-2024 10:17:49 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book/../admin/class-wp-book-admin.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:119
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 119
+[30-Jul-2024 10:17:49 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book/../admin/class-wp-book-admin.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 119
+[30-Jul-2024 10:17:49 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book/../admin/class-wp-book-admin.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:119
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-blog-header.php(13): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\index.php(17): require('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 119
+[30-Jul-2024 10:18:43 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book/../admin/class-wp-book-admin.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 119
+[30-Jul-2024 10:18:43 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book/../admin/class-wp-book-admin.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:119
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 119
+[30-Jul-2024 10:18:43 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book/../admin/class-wp-book-admin.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 119
+[30-Jul-2024 10:18:43 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book/../admin/class-wp-book-admin.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:119
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-blog-header.php(13): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\index.php(17): require('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 119
+[30-Jul-2024 10:19:11 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book/../admin/class-wp-book-admin.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 119
+[30-Jul-2024 10:19:11 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book/../admin/class-wp-book-admin.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:119
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 119
+[30-Jul-2024 10:19:11 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book/../admin/class-wp-book-admin.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 119
+[30-Jul-2024 10:19:11 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book/../admin/class-wp-book-admin.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:119
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-blog-header.php(13): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\index.php(17): require('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 119
+[30-Jul-2024 10:19:11 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book/../admin/class-wp-book-admin.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 119
+[30-Jul-2024 10:19:11 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book/../admin/class-wp-book-admin.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:119
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 119
+[30-Jul-2024 10:19:11 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book/../admin/class-wp-book-admin.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 119
+[30-Jul-2024 10:19:11 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book/../admin/class-wp-book-admin.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:119
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-blog-header.php(13): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\index.php(17): require('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 119
+[30-Jul-2024 10:20:19 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 136
+[30-Jul-2024 10:20:19 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:136
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 136
+[30-Jul-2024 10:20:19 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 136
+[30-Jul-2024 10:20:19 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:136
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-blog-header.php(13): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\index.php(17): require('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 136
+[30-Jul-2024 10:29:45 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 134
+[30-Jul-2024 10:29:45 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:134
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 134
+[30-Jul-2024 10:29:45 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 134
+[30-Jul-2024 10:29:45 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:134
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-blog-header.php(13): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\index.php(17): require('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 134
+[30-Jul-2024 10:33:57 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 134
+[30-Jul-2024 10:33:57 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:134
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 134
+[30-Jul-2024 10:33:57 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 134
+[30-Jul-2024 10:33:57 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:134
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-blog-header.php(13): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\index.php(17): require('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 134
+[30-Jul-2024 10:33:58 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 134
+[30-Jul-2024 10:33:58 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:134
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 134
+[30-Jul-2024 10:33:58 UTC] PHP Warning:  require_once(C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php): Failed to open stream: No such file or directory in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 134
+[30-Jul-2024 10:33:58 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes/admin/class-wp-book-admin.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:134
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-blog-header.php(13): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\index.php(17): require('C:\\Users\\hp\\Loc...')
+#8 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 134
+[30-Jul-2024 10:35:56 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Wp_Book_Admin::__construct(), 0 passed in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 137 and exactly 2 expected in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\admin\class-wp-book-admin.php:50
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(137): Wp_Book_Admin->__construct()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(77): Wp_Book->load_dependencies()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\hp\\Loc...')
+#8 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\hp\\Loc...')
+#9 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\admin\class-wp-book-admin.php on line 50
+[30-Jul-2024 10:36:18 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Wp_Book_Admin::__construct(), 0 passed in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 136 and exactly 2 expected in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\admin\class-wp-book-admin.php:50
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(136): Wp_Book_Admin->__construct()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php(76): Wp_Book->load_dependencies()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\hp\\Loc...')
+#8 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\hp\\Loc...')
+#9 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\admin\class-wp-book-admin.php on line 50
+[30-Jul-2024 11:05:13 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting "function" or "const" in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 41
+[30-Jul-2024 11:05:13 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting "function" or "const" in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 41
+[30-Jul-2024 11:05:15 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting "function" or "const" in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 41
+[30-Jul-2024 11:05:15 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting "function" or "const" in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 41
+[31-Jul-2024 04:18:30 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wpdb.php on line 1982
+[31-Jul-2024 04:18:51 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wpdb.php on line 1982
+[31-Jul-2024 04:18:52 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wpdb.php on line 1982
+[31-Jul-2024 04:20:59 UTC] Automatic updates starting...
+[31-Jul-2024 04:21:00 UTC] Automatic updates complete.
+[31-Jul-2024 05:03:20 UTC] PHP Parse error:  syntax error, unexpected token "class", expecting "function" or "const" in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\admin\class-wp-book-admin.php on line 375
+[31-Jul-2024 05:03:25 UTC] PHP Parse error:  syntax error, unexpected token "class", expecting "function" or "const" in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\admin\class-wp-book-admin.php on line 375
+[31-Jul-2024 05:03:28 UTC] PHP Parse error:  syntax error, unexpected token "class", expecting "function" or "const" in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\admin\class-wp-book-admin.php on line 375
+[31-Jul-2024 05:03:29 UTC] PHP Parse error:  syntax error, unexpected token "class", expecting "function" or "const" in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\admin\class-wp-book-admin.php on line 375
+[31-Jul-2024 05:03:30 UTC] PHP Parse error:  syntax error, unexpected token "class", expecting "function" or "const" in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\admin\class-wp-book-admin.php on line 375
+[31-Jul-2024 05:03:30 UTC] PHP Parse error:  syntax error, unexpected token "class", expecting "function" or "const" in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\admin\class-wp-book-admin.php on line 375
+[31-Jul-2024 05:10:35 UTC] PHP Parse error:  syntax error, unexpected token "class", expecting "function" or "const" in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\admin\class-wp-book-admin.php on line 375
+[31-Jul-2024 05:10:35 UTC] PHP Parse error:  syntax error, unexpected token "class", expecting "function" or "const" in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\admin\class-wp-book-admin.php on line 375
+[31-Jul-2024 05:10:36 UTC] PHP Parse error:  syntax error, unexpected token "class", expecting "function" or "const" in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\admin\class-wp-book-admin.php on line 375
+[31-Jul-2024 05:10:36 UTC] PHP Parse error:  syntax error, unexpected token "class", expecting "function" or "const" in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\admin\class-wp-book-admin.php on line 375
+[31-Jul-2024 05:10:37 UTC] PHP Parse error:  syntax error, unexpected token "class", expecting "function" or "const" in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\admin\class-wp-book-admin.php on line 375
+[31-Jul-2024 05:10:38 UTC] PHP Parse error:  syntax error, unexpected token "class", expecting "function" or "const" in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\admin\class-wp-book-admin.php on line 375
+[31-Jul-2024 05:12:06 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Wp_Book_Admin does not have a method "register_widgets" in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\widgets.php(1870): do_action('widgets_init')
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(324): wp_widgets_init('')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(700): do_action('init')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#8 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#9 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\hp\\Loc...')
+#10 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\themes.php(10): require_once('C:\\Users\\hp\\Loc...')
+#11 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php on line 324
+[31-Jul-2024 05:12:07 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Wp_Book_Admin does not have a method "register_widgets" in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\widgets.php(1870): do_action('widgets_init')
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(324): wp_widgets_init('')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(700): do_action('init')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#8 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#9 C:\Users\hp\Local Sites\customplugin\app\public\wp-blog-header.php(13): require_once('C:\\Users\\hp\\Loc...')
+#10 C:\Users\hp\Local Sites\customplugin\app\public\index.php(17): require('C:\\Users\\hp\\Loc...')
+#11 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php on line 324
+[31-Jul-2024 05:12:11 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Wp_Book_Admin does not have a method "register_widgets" in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\widgets.php(1870): do_action('widgets_init')
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(324): wp_widgets_init('')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(700): do_action('init')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#8 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#9 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\hp\\Loc...')
+#10 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\themes.php(10): require_once('C:\\Users\\hp\\Loc...')
+#11 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php on line 324
+[31-Jul-2024 05:12:11 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Wp_Book_Admin does not have a method "register_widgets" in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\widgets.php(1870): do_action('widgets_init')
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(324): wp_widgets_init('')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(700): do_action('init')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#8 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#9 C:\Users\hp\Local Sites\customplugin\app\public\wp-blog-header.php(13): require_once('C:\\Users\\hp\\Loc...')
+#10 C:\Users\hp\Local Sites\customplugin\app\public\index.php(17): require('C:\\Users\\hp\\Loc...')
+#11 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php on line 324
+[31-Jul-2024 05:16:47 UTC] PHP Parse error:  syntax error, unexpected token "class", expecting "function" or "const" in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\admin\class-wp-book-admin.php on line 375
+[31-Jul-2024 05:16:47 UTC] PHP Parse error:  syntax error, unexpected token "class", expecting "function" or "const" in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\admin\class-wp-book-admin.php on line 375
+[31-Jul-2024 05:18:33 UTC] PHP Fatal error:  Cannot redeclare Wp_Book_Admin::__construct() in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\admin\class-wp-book-admin.php on line 376
+[31-Jul-2024 05:18:34 UTC] PHP Fatal error:  Cannot redeclare Wp_Book_Admin::__construct() in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\admin\class-wp-book-admin.php on line 376
+[31-Jul-2024 05:18:38 UTC] PHP Fatal error:  Cannot redeclare Wp_Book_Admin::__construct() in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\admin\class-wp-book-admin.php on line 376
+[31-Jul-2024 05:18:38 UTC] PHP Fatal error:  Cannot redeclare Wp_Book_Admin::__construct() in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\admin\class-wp-book-admin.php on line 376
+[31-Jul-2024 05:19:12 UTC] PHP Parse error:  syntax error, unexpected token "class", expecting "function" or "const" in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\admin\class-wp-book-admin.php on line 375
+[31-Jul-2024 05:19:12 UTC] PHP Parse error:  syntax error, unexpected token "class", expecting "function" or "const" in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\admin\class-wp-book-admin.php on line 375
+[31-Jul-2024 05:20:31 UTC] PHP Parse error:  syntax error, unexpected token "class", expecting "function" or "const" in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\admin\class-wp-book-admin.php on line 375
+[31-Jul-2024 05:20:31 UTC] PHP Parse error:  syntax error, unexpected token "class", expecting "function" or "const" in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\admin\class-wp-book-admin.php on line 375
+[31-Jul-2024 05:21:55 UTC] PHP Parse error:  syntax error, unexpected token "public", expecting end of file in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\admin\class-wp-book-admin.php on line 365
+[31-Jul-2024 05:21:55 UTC] PHP Parse error:  syntax error, unexpected token "public", expecting end of file in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\admin\class-wp-book-admin.php on line 365
+[31-Jul-2024 05:21:56 UTC] PHP Parse error:  syntax error, unexpected token "public", expecting end of file in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\admin\class-wp-book-admin.php on line 365
+[31-Jul-2024 05:21:56 UTC] PHP Parse error:  syntax error, unexpected token "public", expecting end of file in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\admin\class-wp-book-admin.php on line 365
+[31-Jul-2024 05:25:43 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Wp_Book_Admin does not have a method "register_widgets" in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\widgets.php(1870): do_action('widgets_init')
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(324): wp_widgets_init('')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(700): do_action('init')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#8 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#9 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\hp\\Loc...')
+#10 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\themes.php(10): require_once('C:\\Users\\hp\\Loc...')
+#11 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php on line 324
+[31-Jul-2024 05:25:44 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Wp_Book_Admin does not have a method "register_widgets" in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\widgets.php(1870): do_action('widgets_init')
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(324): wp_widgets_init('')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(700): do_action('init')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#8 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#9 C:\Users\hp\Local Sites\customplugin\app\public\wp-blog-header.php(13): require_once('C:\\Users\\hp\\Loc...')
+#10 C:\Users\hp\Local Sites\customplugin\app\public\index.php(17): require('C:\\Users\\hp\\Loc...')
+#11 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php on line 324
+[31-Jul-2024 05:30:52 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Wp_Book_Admin does not have a method "register_widgets" in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\widgets.php(1870): do_action('widgets_init')
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(324): wp_widgets_init('')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(700): do_action('init')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#8 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#9 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\hp\\Loc...')
+#10 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\themes.php(10): require_once('C:\\Users\\hp\\Loc...')
+#11 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php on line 324
+[31-Jul-2024 05:30:52 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Wp_Book_Admin does not have a method "register_widgets" in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\widgets.php(1870): do_action('widgets_init')
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(324): wp_widgets_init('')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(700): do_action('init')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#8 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#9 C:\Users\hp\Local Sites\customplugin\app\public\wp-blog-header.php(13): require_once('C:\\Users\\hp\\Loc...')
+#10 C:\Users\hp\Local Sites\customplugin\app\public\index.php(17): require('C:\\Users\\hp\\Loc...')
+#11 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php on line 324
+[31-Jul-2024 05:40:10 UTC] Automatic updates starting...
+[31-Jul-2024 05:40:10 UTC] Automatic updates complete.
+[31-Jul-2024 05:41:50 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Wp_Book_Admin does not have a method "register_widgets" in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\widgets.php(1870): do_action('widgets_init')
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(324): wp_widgets_init('')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(700): do_action('init')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#8 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#9 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\hp\\Loc...')
+#10 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\widgets.php(10): require_once('C:\\Users\\hp\\Loc...')
+#11 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php on line 324
+[31-Jul-2024 05:41:50 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Wp_Book_Admin does not have a method "register_widgets" in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\widgets.php(1870): do_action('widgets_init')
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(324): wp_widgets_init('')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(700): do_action('init')
+#7 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#8 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#9 C:\Users\hp\Local Sites\customplugin\app\public\wp-blog-header.php(13): require_once('C:\\Users\\hp\\Loc...')
+#10 C:\Users\hp\Local Sites\customplugin\app\public\index.php(17): require('C:\\Users\\hp\\Loc...')
+#11 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php on line 324
