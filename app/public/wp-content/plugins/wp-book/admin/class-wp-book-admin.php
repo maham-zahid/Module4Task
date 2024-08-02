@@ -565,6 +565,36 @@ class Wp_Book_Admin
 		return $output;
 	}
 	
+    public function register_top_categories_dashboard_widget() {
+        wp_add_dashboard_widget(
+            'wp_book_top_categories', // Widget slug.
+            'Top 5 Book Categories', // Widget title.
+            array($this, 'display_top_categories_widget') // Display callback.
+        );
+    }
+    
+    public function display_top_categories_widget() {
+        // Fetch top 5 categories based on count
+        $args = array(
+            'taxonomy'   => 'category',
+            'orderby'    => 'count',
+            'order'      => 'DESC',
+            'number'     => 5,
+        );
+    
+        $categories = get_terms($args);
+    
+        if (!empty($categories) && !is_wp_error($categories)) {
+            echo '<ul>';
+            foreach ($categories as $category) {
+                echo '<li><strong>' . esc_html($category->name) . ':</strong> ' . esc_html($category->count) . ' books</li>';
+            }
+            echo '</ul>';
+        } else {
+            echo 'No categories found.';
+        }
+    }
+    
 
 
 }
