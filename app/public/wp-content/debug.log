@@ -2445,3 +2445,239 @@ Stack trace:
 [31-Jul-2024 11:29:27 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
 [31-Jul-2024 11:29:27 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
 [31-Jul-2024 11:30:27 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[31-Jul-2024 11:31:27 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[31-Jul-2024 11:33:27 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[31-Jul-2024 11:34:28 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:06:33 UTC] PHP Warning:  Undefined variable $plugin_public in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 172
+[02-Aug-2024 05:06:33 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:06:35 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, first array member is not a valid class name or object in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(700): do_action('init')
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\hp\\Loc...')
+#6 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php on line 324
+[02-Aug-2024 05:06:38 UTC] PHP Warning:  Undefined variable $plugin_public in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 172
+[02-Aug-2024 05:06:38 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:06:38 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, first array member is not a valid class name or object in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(700): do_action('init')
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\widgets.php(10): require_once('C:\\Users\\hp\\Loc...')
+#7 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php on line 324
+[02-Aug-2024 05:06:39 UTC] PHP Warning:  Undefined variable $plugin_public in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 172
+[02-Aug-2024 05:06:39 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:06:39 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, first array member is not a valid class name or object in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(700): do_action('init')
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-blog-header.php(13): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\index.php(17): require('C:\\Users\\hp\\Loc...')
+#7 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php on line 324
+[02-Aug-2024 05:14:11 UTC] PHP Warning:  Undefined variable $plugin_public in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 190
+[02-Aug-2024 05:14:11 UTC] PHP Warning:  Undefined variable $plugin_public in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 191
+[02-Aug-2024 05:14:11 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:14:11 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Wp_Book_Public does not have a method "register_shortcodes" in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(700): do_action('init')
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\widgets.php(10): require_once('C:\\Users\\hp\\Loc...')
+#7 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php on line 324
+[02-Aug-2024 05:14:11 UTC] PHP Warning:  Undefined variable $plugin_public in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 190
+[02-Aug-2024 05:14:11 UTC] PHP Warning:  Undefined variable $plugin_public in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 191
+[02-Aug-2024 05:14:11 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:14:11 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Wp_Book_Public does not have a method "register_shortcodes" in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(700): do_action('init')
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-blog-header.php(13): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\index.php(17): require('C:\\Users\\hp\\Loc...')
+#7 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php on line 324
+[02-Aug-2024 05:14:12 UTC] PHP Warning:  Undefined variable $plugin_public in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 190
+[02-Aug-2024 05:14:12 UTC] PHP Warning:  Undefined variable $plugin_public in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 191
+[02-Aug-2024 05:14:12 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:14:12 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Wp_Book_Public does not have a method "register_shortcodes" in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(700): do_action('init')
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\widgets.php(10): require_once('C:\\Users\\hp\\Loc...')
+#7 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php on line 324
+[02-Aug-2024 05:14:12 UTC] PHP Warning:  Undefined variable $plugin_public in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 190
+[02-Aug-2024 05:14:12 UTC] PHP Warning:  Undefined variable $plugin_public in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 191
+[02-Aug-2024 05:14:12 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:14:12 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Wp_Book_Public does not have a method "register_shortcodes" in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(700): do_action('init')
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-blog-header.php(13): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\index.php(17): require('C:\\Users\\hp\\Loc...')
+#7 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php on line 324
+[02-Aug-2024 05:22:38 UTC] PHP Warning:  Undefined variable $plugin_public in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 191
+[02-Aug-2024 05:22:38 UTC] PHP Warning:  Undefined variable $plugin_public in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 192
+[02-Aug-2024 05:22:38 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:22:38 UTC] PHP Warning:  Undefined variable $plugin_public in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 191
+[02-Aug-2024 05:22:38 UTC] PHP Warning:  Undefined variable $plugin_public in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 192
+[02-Aug-2024 05:22:38 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:22:39 UTC] PHP Warning:  Undefined variable $plugin_public in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 191
+[02-Aug-2024 05:22:39 UTC] PHP Warning:  Undefined variable $plugin_public in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 192
+[02-Aug-2024 05:22:39 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:22:41 UTC] Automatic updates starting...
+[02-Aug-2024 05:22:44 UTC] Automatic updates complete.
+[02-Aug-2024 05:22:47 UTC] PHP Warning:  Undefined variable $plugin_public in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 191
+[02-Aug-2024 05:22:47 UTC] PHP Warning:  Undefined variable $plugin_public in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 192
+[02-Aug-2024 05:22:47 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:26:52 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:26:52 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:26:53 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:29:36 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:29:36 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:29:41 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:29:41 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:30:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Wp_Book::define_public_hooks() in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:80
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-login.php(12): require('C:\\Users\\hp\\Loc...')
+#6 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 80
+[02-Aug-2024 05:30:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Wp_Book::define_public_hooks() in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php:80
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(78): Wp_Book->__construct()
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\wp-book.php(82): run_wp_book()
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(522): include_once('C:\\Users\\hp\\Loc...')
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-blog-header.php(13): require_once('C:\\Users\\hp\\Loc...')
+#6 C:\Users\hp\Local Sites\customplugin\app\public\index.php(17): require('C:\\Users\\hp\\Loc...')
+#7 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 80
+[02-Aug-2024 05:31:19 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:31:19 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:33:54 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:33:54 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:33:56 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:33:56 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:38:31 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:38:31 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:38:32 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:38:32 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:38:32 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:38:42 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:38:43 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:38:46 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:38:46 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:38:46 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:38:47 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:38:47 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:38:47 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:38:47 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:38:47 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:38:47 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:38:47 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:38:47 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:38:47 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:38:47 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:38:47 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:39:46 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:40:47 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:40:48 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:40:49 UTC] Automatic updates starting...
+[02-Aug-2024 05:40:50 UTC] Automatic updates complete.
+[02-Aug-2024 05:41:34 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:41:35 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:41:35 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:41:35 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:41:35 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:41:35 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:41:35 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:41:35 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:41:36 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:41:36 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:41:36 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:41:36 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:41:36 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:41:36 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:41:36 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:41:36 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:42:35 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:44:36 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\includes\class-wp-book.php on line 252
+[02-Aug-2024 05:46:28 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:46:29 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:46:31 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:46:32 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:46:32 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:46:32 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:46:32 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:46:32 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:46:32 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:46:32 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:46:32 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:46:32 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:46:32 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:46:32 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:46:32 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:46:32 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:46:32 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:56:45 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:56:47 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:56:54 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:56:54 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:56:57 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:56:57 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:56:57 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:56:57 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:56:57 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:56:57 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:56:57 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:56:58 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:56:58 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:56:58 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:56:58 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:56:58 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:56:58 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:56:58 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:57:57 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:58:57 UTC] PHP Warning:  Array to string conversion in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php on line 1003
+[02-Aug-2024 05:59:58 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Wp_Book_Admin does not have a method "create_book_post_type" in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-settings.php(700): do_action('init')
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-config.php(115): require_once('C:\\Users\\hp\\Loc...')
+#4 C:\Users\hp\Local Sites\customplugin\app\public\wp-load.php(50): require_once('C:\\Users\\hp\\Loc...')
+#5 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\hp\\Loc...')
+#6 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php on line 324

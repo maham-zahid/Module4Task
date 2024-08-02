@@ -1,19 +1,6 @@
 <?php
 
 /**
- * The file that defines the core plugin class
- *
- * A class definition that includes attributes and functions used across both the
- * public-facing side of the site and the admin area.
- *
- * @link       https://http://localhost/customplugin
- * @since      1.0.0
- *
- * @package    Wp_Book
- * @subpackage Wp_Book/includes
- */
-
-/**
  * The core plugin class.
  *
  * This is used to define internationalization, admin-specific hooks, and
@@ -25,9 +12,10 @@
  * @since      1.0.0
  * @package    Wp_Book
  * @subpackage Wp_Book/includes
- * @author     Maham Zahid <mahamzahid333@gmail.com>
+ * @author     Amna <hinazaniz@gmail.com>
  */
-class Wp_Book {
+class Wp_Book
+{
 
 	/**
 	 * The loader that's responsible for maintaining and registering all hooks that power
@@ -66,8 +54,9 @@ class Wp_Book {
 	 *
 	 * @since    1.0.0
 	 */
-	public function __construct() {
-		if ( defined( 'WP_BOOK_VERSION' ) ) {
+	public function __construct()
+	{
+		if (defined('WP_BOOK_VERSION')) {
 			$this->version = WP_BOOK_VERSION;
 		} else {
 			$this->version = '1.0.0';
@@ -78,8 +67,6 @@ class Wp_Book {
 		$this->set_locale();
 		$this->define_admin_hooks();
 		$this->define_public_hooks();
-		$this->define_public_hooks();
-
 	}
 
 	/**
@@ -98,39 +85,35 @@ class Wp_Book {
 	 * @since    1.0.0
 	 * @access   private
 	 */
-	private function load_dependencies() {
+	private function load_dependencies()
+	{
 
 		/**
 		 * The class responsible for orchestrating the actions and filters of the
 		 * core plugin.
 		 */
-		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/class-wp-book-loader.php';
+		require_once plugin_dir_path(dirname(__FILE__)) . 'includes/class-wp-book-loader.php';
 
 		/**
 		 * The class responsible for defining internationalization functionality
 		 * of the plugin.
 		 */
-		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/class-wp-book-i18n.php';
+		require_once plugin_dir_path(dirname(__FILE__)) . 'includes/class-wp-book-i18n.php';
 
 		/**
 		 * The class responsible for defining all actions that occur in the admin area.
 		 */
-		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'admin/class-wp-book-admin.php';
+		require_once plugin_dir_path(dirname(__FILE__)) . 'admin/class-wp-book-admin.php';
 
 		/**
 		 * The class responsible for defining all actions that occur in the public-facing
 		 * side of the site.
 		 */
-		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'public/class-wp-book-public.php';
-
-		//require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/wp-book-activator.php';
+		require_once plugin_dir_path(dirname(__FILE__)) . 'public/class-wp-book-public.php';
 
 		$this->loader = new Wp_Book_Loader();
 
-		
-
 	}
-
 
 	/**
 	 * Define the locale for this plugin for internationalization.
@@ -141,11 +124,12 @@ class Wp_Book {
 	 * @since    1.0.0
 	 * @access   private
 	 */
-	private function set_locale() {
+	private function set_locale()
+	{
 
 		$plugin_i18n = new Wp_Book_i18n();
 
-		$this->loader->add_action( 'plugins_loaded', $plugin_i18n, 'load_plugin_textdomain' );
+		$this->loader->add_action('plugins_loaded', $plugin_i18n, 'load_plugin_textdomain');
 
 	}
 
@@ -156,26 +140,24 @@ class Wp_Book {
 	 * @since    1.0.0
 	 * @access   private
 	 */
-	private function define_admin_hooks() {
+	private function define_admin_hooks()
+	{
 
-		$plugin_admin = new Wp_Book_Admin( $this->get_plugin_name(), $this->get_version() );
+		$plugin_admin = new Wp_Book_Admin($this->get_plugin_name(), $this->get_version());
 
-		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_styles' );
-		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_scripts' );
-		$this->loader->add_action( 'init', $plugin_admin, 'register_book_post_type' );
-		$this->loader->add_action( 'init', $plugin_admin,'custom_post_type', 0 );
-        $this->loader->add_action( 'init', $plugin_admin,'create_tags_nonhierarchical_taxonomy', 0 );
-		$this->loader->add_action( 'add_meta_boxes', $plugin_admin, 'add_book_metaboxes' );
-		$this->loader->add_action( 'save_post', $plugin_admin, 'save_book_meta' );
-		$this->loader->add_action('admin_menu', $plugin_admin, 'add_settings_menu');
-        $this->loader->add_action('admin_init', $plugin_admin, 'register_settings');
-        $this->loader->add_action( 'widgets_init',$plugin_admin, 'register_widgets' );
-	    $this->loader->add_action('wp_dashboard_setup', $plugin_admin, array($this, 'register_top_categories_dashboard_widget'));
-	    
-		}
-		
-	    
-	
+		$this->loader->add_action('admin_enqueue_scripts', $plugin_admin, 'enqueue_styles');
+		$this->loader->add_action('admin_enqueue_scripts', $plugin_admin, 'enqueue_scripts');
+		$this->loader->add_action('widgets_init', $plugin_admin, 'register_widgets');
+		$this->loader->add_action('init', $plugin_admin, 'create_book_post_type');
+		$this->loader->add_action('init', $plugin_admin, 'create_book_category');
+		$this->loader->add_action('init', $plugin_admin, 'create_book_tags');
+		$this->loader->add_action('add_meta_boxes', $plugin_admin, 'add_bookdetails_meta_box');
+		$this->loader->add_action('save_post', $plugin_admin, 'save_bookdetails_fields');
+		$this->loader->add_action('admin_menu', $plugin_admin, 'add_settings_page');
+		$this->loader->add_action('admin_init', $plugin_admin, 'register_settings');
+		$this->loader->add_action('init', $plugin_admin, 'register_shortcodes');
+
+	}
 
 	/**
 	 * Register all of the hooks related to the public-facing functionality
@@ -184,14 +166,13 @@ class Wp_Book {
 	 * @since    1.0.0
 	 * @access   private
 	 */
-	private function define_public_hooks() {
+	private function define_public_hooks()
+	{
 
-		$plugin_public = new Wp_Book_Public( $this->get_plugin_name(), $this->get_version() );
+		$plugin_public = new Wp_Book_Public($this->get_plugin_name(), $this->get_version());
 
-		$this->loader->add_action( 'wp_enqueue_scripts', $plugin_public, 'enqueue_styles' );
-		$this->loader->add_action( 'wp_enqueue_scripts', $plugin_public, 'enqueue_scripts' );
-		$plugin_public = new Wp_Book_Public( $this->get_plugin_name(), $this->get_version() );
-		$this->loader->add_action( 'init', $plugin_public, 'register_shortcodes' );
+		$this->loader->add_action('wp_enqueue_scripts', $plugin_public, 'enqueue_styles');
+		$this->loader->add_action('wp_enqueue_scripts', $plugin_public, 'enqueue_scripts');
 
 	}
 
@@ -200,7 +181,8 @@ class Wp_Book {
 	 *
 	 * @since    1.0.0
 	 */
-	public function run() {
+	public function run()
+	{
 		$this->loader->run();
 	}
 
@@ -211,7 +193,8 @@ class Wp_Book {
 	 * @since     1.0.0
 	 * @return    string    The name of the plugin.
 	 */
-	public function get_plugin_name() {
+	public function get_plugin_name()
+	{
 		return $this->plugin_name;
 	}
 
@@ -221,7 +204,8 @@ class Wp_Book {
 	 * @since     1.0.0
 	 * @return    Wp_Book_Loader    Orchestrates the hooks of the plugin.
 	 */
-	public function get_loader() {
+	public function get_loader()
+	{
 		return $this->loader;
 	}
 
@@ -231,7 +215,8 @@ class Wp_Book {
 	 * @since     1.0.0
 	 * @return    string    The version number of the plugin.
 	 */
-	public function get_version() {
+	public function get_version()
+	{
 		return $this->version;
 	}
 

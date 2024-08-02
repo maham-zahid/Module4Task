@@ -3,7 +3,7 @@
 /**
  * The admin-specific functionality of the plugin.
  *
- * @link       https://http://localhost/customplugin
+ * @link       https://https://Amna.example.com/
  * @since      1.0.0
  *
  * @package    Wp_Book
@@ -18,9 +18,12 @@
  *
  * @package    Wp_Book
  * @subpackage Wp_Book/admin
- * @author     Maham Zahid <mahamzahid333@gmail.com>
+ * @author     Amna <hinazaniz@gmail.com>
  */
-class Wp_Book_Admin {
+
+
+class Wp_Book_Admin
+{
 
 	/**
 	 * The ID of this plugin.
@@ -47,7 +50,8 @@ class Wp_Book_Admin {
 	 * @param      string    $plugin_name       The name of this plugin.
 	 * @param      string    $version    The version of this plugin.
 	 */
-	public function __construct( $plugin_name, $version ) {
+	public function __construct($plugin_name, $version)
+	{
 
 		$this->plugin_name = $plugin_name;
 		$this->version = $version;
@@ -59,7 +63,8 @@ class Wp_Book_Admin {
 	 *
 	 * @since    1.0.0
 	 */
-	public function enqueue_styles() {
+	public function enqueue_styles()
+	{
 
 		/**
 		 * This function is provided for demonstration purposes only.
@@ -73,7 +78,7 @@ class Wp_Book_Admin {
 		 * class.
 		 */
 
-		wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/wp-book-admin.css', array(), $this->version, 'all' );
+		wp_enqueue_style($this->plugin_name, plugin_dir_url(__FILE__) . 'css/wp-book-admin.css', array(), $this->version, 'all');
 
 	}
 
@@ -82,7 +87,8 @@ class Wp_Book_Admin {
 	 *
 	 * @since    1.0.0
 	 */
-	public function enqueue_scripts() {
+	public function enqueue_scripts()
+	{
 
 		/**
 		 * This function is provided for demonstration purposes only.
@@ -96,113 +102,119 @@ class Wp_Book_Admin {
 		 * class.
 		 */
 
-		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/wp-book-admin.js', array( 'jquery' ), $this->version, false );
+		wp_enqueue_script($this->plugin_name, plugin_dir_url(__FILE__) . 'js/wp-book-admin.js', array('jquery'), $this->version, false);
 
 	}
 
-	
-	public function register_widgets()
-    {
-        register_widget('WP_Book_Books_Widget');
-        register_widget('WP_Book_Top_Tags_Widget');
-    }
 
-	public function register_book_post_type() {
-		register_post_type( 'books',
-		// CPT Options
+	public function register_widgets()
+	{
+		register_widget('WP_Book_Books_Widget');
+	}
+
+	// Our custom post type function
+	function create_book_post_type()
+	{
+
+		register_post_type(
+			'books',
+			// CPT Options
 			array(
 				'labels' => array(
-					'name' => __( 'Books' ),
-					'singular_name' => __( 'Book' ),
-					'add_new' => __( 'Add New' )
+					'name' => __('Books'),
+					'singular_name' => __('Book'),
+					'add_new' => __('Add New'),
+					'add_new_item' => __('Add New Book')
 				),
 				'public' => true,
 				'has_archive' => true,
 				'rewrite' => array('slug' => 'books'),
 				'show_in_rest' => true,
-	
+				'menu_icon' => 'dashicons-book',
+
 			)
 		);
 	}
 
 
+	//creating custom post category
+	function create_book_category()
+	{
 
-
-	function custom_post_type() {
-  
 		// Set UI labels for Custom Post Type
-			$labels = array(
-				'name'                => _x( 'Books', 'Post Type General Name', 'twentythirteen' ),
-				'singular_name'       => _x( 'Book', 'Post Type Singular Name', 'twentythirteen' ),
-				'menu_name'           => __( 'Books', 'twentythirteen' ),
-				'parent_item_colon'   => __( 'Parent Book', 'twentythirteen' ),
-				'all_items'           => __( 'All Books', 'twentythirteen' ),
-				'view_item'           => __( 'View Book', 'twentythirteen' ),
-				'add_new_item'        => __( 'Add New Book', 'twentythirteen' ),
-				'add_new'             => __( 'Add New', 'twentythirteen' ),
-				'edit_item'           => __( 'Edit Book', 'twentythirteen' ),
-				'update_item'         => __( 'Update Book', 'twentythirteen' ),
-				'search_items'        => __( 'Search Book', 'twentythirteen' ),
-				'not_found'           => __( 'Not Found', 'twentythirteen' ),
-				'not_found_in_trash'  => __( 'Not found in Trash', 'twentythirteen' ),
-			);
-			  
+		$labels = array(
+			'name' => _x('Books', 'Post Type General Name', 'twentythirteen'),
+			'singular_name' => _x('Book', 'Post Type Singular Name', 'twentythirteen'),
+			'menu_name' => __('Books', 'twentythirteen'),
+			'parent_item_colon' => __('Parent Book', 'twentythirteen'),
+			'all_items' => __('All Books', 'twentythirteen'),
+			'view_item' => __('View Book', 'twentythirteen'),
+			'add_new_item' => __('Add New Book', 'twentythirteen'),
+			'add_new' => __('Add New', 'twentythirteen'),
+			'edit_item' => __('Edit Book', 'twentythirteen'),
+			'update_item' => __('Update Book', 'twentythirteen'),
+			'search_items' => __('Search Book', 'twentythirteen'),
+			'not_found' => __('Not Found', 'twentythirteen'),
+			'not_found_in_trash' => __('Not found in Trash', 'twentythirteen'),
+		);
+
 		// Set other options for Custom Post Type
-			  
-			$args = array(
-				'label'               => __( 'books', 'twentythirteen' ),
-				'description'         => __( 'MBook news and reviews', 'twentythirteen' ),
-				'labels'              => $labels,
-				'supports'            => array( 'title', 'editor', 'excerpt', 'author', 'thumbnail', 'comments', 'revisions', 'custom-fields', ),
-				'hierarchical'        => false,
-				'public'              => true,
-				'show_ui'             => true,
-				'show_in_menu'        => true,
-				'show_in_nav_menus'   => true,
-				'show_in_admin_bar'   => true,
-				'menu_position'       => 5,
-				'can_export'          => true,
-				'has_archive'         => true,
-				'exclude_from_search' => false,
-				'publicly_queryable'  => true,
-				'capability_type'     => 'page',
-				'show_in_rest'        => true,
-				  
-				// This is where we add taxonomies to our CPT
-				'taxonomies'          => array( 'category' ),
-			);
-			  
-			// Registering your Custom Post Type
-			register_post_type( 'books', $args );
-		  
-		}
 
+		$args = array(
+			'label' => __('books', 'twentythirteen'),
+			'description' => __('Manage book reviews and ratings', 'twentythirteen'),
+			'labels' => $labels,
+			'supports' => array('title', 'editor', 'excerpt', 'author', 'thumbnail', 'comments', 'revisions', 'custom-fields', ),
+			'hierarchical' => false,
+			'public' => true,
+			'show_ui' => true,
+			'show_in_menu' => true,
+			'show_in_nav_menus' => true,
+			'show_in_admin_bar' => true,
+			'menu_position' => 5,
+			'can_export' => true,
+			'has_archive' => true,
+			'exclude_from_search' => false,
+			'publicly_queryable' => true,
+			'capability_type' => 'page',
+			'show_in_rest' => true,
 
-		function create_tags_nonhierarchical_taxonomy() {
-  
-			// Labels part for the GUI
-			  
-			  $labels = array(
-				'name' => _x( 'Tags', 'taxonomy general name' ),
-				'singular_name' => _x( 'Tag', 'taxonomy singular name' ),
-				'search_items' =>  __( 'Search Tags' ),
-				'popular_items' => __( 'Popular Tags' ),
-				'all_items' => __( 'All Tags' ),
-				'parent_item' => null,
-				'parent_item_colon' => null,
-				'edit_item' => __( 'Edit Tag' ), 
-				'update_item' => __( 'Update Tag' ),
-				'add_new_item' => __( 'Add New Tag' ),
-				'new_item_name' => __( 'New Tag Name' ),
-				'separate_items_with_commas' => __( 'Separate tags with commas' ),
-				'add_or_remove_items' => __( 'Add or remove tags' ),
-				'choose_from_most_used' => __( 'Choose from the most used tags' ),
-				'menu_name' => __( 'Tags' ),
-			  ); 
-			  
-			// Now register the non-hierarchical taxonomy like tag
-			  
-			  register_taxonomy('tags','books',array(
+			// This is where we add taxonomies to our CPT
+			'taxonomies' => array('category'),
+		);
+
+		// Registering your Custom Post Type
+		register_post_type('books', $args);
+
+	}
+
+	//custom tags function
+	function create_book_tags() {
+		// Labels part for the GUI
+		$labels = array(
+			'name' => _x('Tags', 'taxonomy general name'),
+			'singular_name' => _x('Tag', 'taxonomy singular name'),
+			'search_items' => __('Search Tags'),
+			'popular_items' => __('Popular Tags'),
+			'all_items' => __('All Tags'),
+			'parent_item' => null,
+			'parent_item_colon' => null,
+			'edit_item' => __('Edit Tag'),
+			'update_item' => __('Update Tag'),
+			'add_new_item' => __('Add New Tag'),
+			'new_item_name' => __('New Tag Name'),
+			'separate_items_with_commas' => __('Separate tags with commas'),
+			'add_or_remove_items' => __('Add or remove tags'),
+			'choose_from_most_used' => __('Choose from the most used tags'),
+			'not_found' => __('No tags found.'),
+			'menu_name' => __('Tags'),
+		);
+	
+		// Now register the non-hierarchical taxonomy like tag
+		register_taxonomy(
+			'tags',
+			'books',
+			array(
 				'hierarchical' => false,
 				'labels' => $labels,
 				'show_ui' => true,
@@ -210,396 +222,426 @@ class Wp_Book_Admin {
 				'show_admin_column' => true,
 				'update_count_callback' => '_update_post_term_count',
 				'query_var' => true,
-				'rewrite' => array( 'slug' => 'tag' ),
-			  ));
+				'rewrite' => array('slug' => 'tag'),
+			)
+		);
+	}
+	
+
+	//function to add heading of metabox (book details)
+	public function add_bookdetails_meta_box()
+	{
+		add_meta_box(
+			'bookdetails',
+			__('Book Details', 'wp-book'),
+			array($this, 'bookdetails_meta_box_callback'),
+			'books',
+			'normal',
+			'default'
+		);
+	}
+
+	//Call back function to generate different fields of book 
+	function bookdetails_meta_box_callback($post)
+	{
+		echo '<div style="border: 1px solid #ccc; padding: 10px; ">';
+		wp_nonce_field('bookdetails_data', 'bookdetails_nonce');
+		$this->bookdetails_field_generator($post);
+		echo '</div>';
+	}
+
+	//metabox fields
+	private $meta_fields = array(
+		array(
+			'label' => 'Name of Book',
+			'id' => 'book_name',
+			'type' => 'text',
+		),
+		array(
+			'label' => 'Author Name',
+			'id' => 'author_id',
+			'type' => 'text',
+		),
+		array(
+			'label' => 'Price',
+			'id' => 'price',
+			'type' => 'number',
+		),
+		array(
+			'label' => 'Publisher',
+			'id' => 'pub_id',
+			'type' => 'text',
+		),
+		array(
+			'label' => 'Year',
+			'id' => 'year',
+			'type' => 'number',
+		),
+		array(
+			'label' => 'Edition',
+			'id' => 'edit_id',
+			'type' => 'number',
+		),
+		array(
+			'label' => 'URL',
+			'id' => 'url',
+			'type' => 'url',
+		),
+	);
+
+	//Call back used above to create field details
+	function bookdetails_field_generator($post)
+	{
+		$output = '';
+		foreach ($this->meta_fields as $meta_field) {
+			$label = '<label for="' . $meta_field['id'] . '">' . $meta_field['label'] . '</label>';
+			$meta_value = get_post_meta($post->ID, $meta_field['id'], true);
+			if (empty($meta_value) && isset($meta_field['default'])) {
+				$meta_value = $meta_field['default'];
 			}
+			$input = sprintf(
+				'<input %s id="%s" name="%s" type="%s" value="%s">',
+				$meta_field['type'] !== 'color' ? 'style="width: 50%"' : '',
+				$meta_field['id'],
+				$meta_field['id'],
+				$meta_field['type'],
+				esc_attr($meta_value)
+			);
+			$output .= $this->format_rows($label, $input);
+		}
+		echo '<table class="form-table"><tbody>' . $output . '</tbody></table>';
+	}
 
-			// Add the metabox functionality at the end of the Wp_Book_Admin class
-public function add_book_metaboxes() {
-    add_meta_box(
-        'wp_book_meta',
-        'Book Information',
-        array($this, 'render_book_meta_box'),
-        'books',
-        'normal',
-        'high'
-    );
+
+
+	//function to describe format of all field rows
+	function format_rows($label, $input)
+	{
+		return '<tr><th>' . $label . '</th><td>' . $input . '</td></tr>';
+	}
+
+	//function to save details of book
+	function save_bookdetails_fields($post_id)
+	{
+		if (!isset($_POST['bookdetails_nonce']) || !wp_verify_nonce($_POST['bookdetails_nonce'], 'bookdetails_data')) {
+			return $post_id;
+		}
+		if (defined('DOING_AUTOSAVE') && DOING_AUTOSAVE) {
+			return $post_id;
+		}
+		foreach ($this->meta_fields as $meta_field) {
+			if (isset($_POST[$meta_field['id']])) {
+				switch ($meta_field['type']) {
+					case 'email':
+						$_POST[$meta_field['id']] = sanitize_email($_POST[$meta_field['id']]);
+						break;
+					case 'text':
+						$_POST[$meta_field['id']] = sanitize_text_field($_POST[$meta_field['id']]);
+						break;
+				}
+				update_post_meta($post_id, $meta_field['id'], $_POST[$meta_field['id']]);
+			} else if ($meta_field['type'] === 'checkbox') {
+				update_post_meta($post_id, $meta_field['id'], '0');
+			}
+		}
+	}
+
+
+
+	/**
+	 * Add a settings page to the "Books" menu.
+	 */
+	public function add_settings_page()
+	{
+		add_submenu_page(
+			'edit.php?post_type=books', // Parent slug (Books menu)
+			__('Book Settings', 'wp-book'), // Page title
+			__('Settings', 'wp-book'), // Menu title
+			'manage_options', // Capability
+			'wp-book-settings', // Menu slug
+			array($this, 'render_settings_page') // Callback function
+		);
+	}
+
+
+	/**
+	 * Register settings and their fields.
+	 */
+	public function register_settings()
+	{
+		register_setting('wp_book_settings_group', 'wp_book_settings');
+
+		add_settings_section(
+			'wp_book_settings_section', // ID
+			__('Book Settings', 'wp-book'), // Title
+			null, // Callback
+			'wp-book-settings' // Page
+		);
+
+		add_settings_field(
+			'wp_book_currency', // ID
+			__('Currency', 'wp-book'), // Title
+			array($this, 'currency_field_callback'), // Callback
+			'wp-book-settings', // Page
+			'wp_book_settings_section' // Section
+		);
+
+		add_settings_field(
+			'wp_book_books_per_page', // ID
+			__('Books Per Page', 'wp-book'), // Title
+			array($this, 'books_per_page_field_callback'), // Callback
+			'wp-book-settings', // Page
+			'wp_book_settings_section' // Section
+		);
+	}
+
+
+
+	/**
+	 * Render the settings page.
+	 */
+	public function render_settings_page()
+	{
+		?>
+		<div class="wrap">
+			<h1><?php _e('Book Settings', 'wp-book'); ?></h1>
+			<form method="post" action="options.php">
+				<?php
+				settings_fields('wp_book_settings_group');
+				do_settings_sections('wp-book-settings');
+				submit_button();
+				?>
+			</form>
+		</div>
+		<?php
+	}
+
+
+	/**
+	 * Render the currency field.
+	 */
+	public function currency_field_callback()
+	{
+		$options = get_option('wp_book_settings');
+		$currency = isset($options['wp_book_currency']) ? esc_attr($options['wp_book_currency']) : 'USD'; // Default to USD
+		?>
+		<input type="text" name="wp_book_settings[wp_book_currency]" value="<?php echo $currency; ?>">
+		<?php
+	}
+
+
+
+	/**
+	 * Render the books per page field.
+	 */
+	public function books_per_page_field_callback()
+	{
+		$options = get_option('wp_book_settings');
+		?>
+		<input type="number" name="wp_book_settings[wp_book_books_per_page]"
+			value="<?php echo isset($options['wp_book_books_per_page']) ? esc_attr($options['wp_book_books_per_page']) : '10'; ?>">
+		<?php
+	}
+
+
+	/**
+	 * Register the shortcode.
+	 */
+	public function register_shortcodes()
+	{
+		add_shortcode('book', array($this, 'book_shortcode'));
+	}
+
+
+
+	/**
+	 * Shortcode callback to display book information.
+	 */
+	public function book_shortcode($atts) {
+		$atts = shortcode_atts(
+			array(
+				'book_name' => '',
+				'author_name' => '',
+				'year' => '',
+				'category' => '',
+				'tag' => '',
+				'publisher' => '',
+			),
+			$atts,
+			'book'
+		);
+	
+		$args = array(
+			'post_type' => 'books',
+			'posts_per_page' => -1,
+			'meta_query' => array(
+				'relation' => 'AND',
+			),
+			'tax_query' => array(
+				'relation' => 'AND',
+			),
+		);
+	
+		if (!empty($atts['book_name'])) {
+			$args['meta_query'][] = array(
+				'key' => 'book_name',
+				'value' => $atts['book_name'],
+				'compare' => 'LIKE',
+			);
+		}
+	
+		if (!empty($atts['author_name'])) {
+			$args['meta_query'][] = array(
+				'key' => 'author_id',
+				'value' => $atts['author_name'],
+				'compare' => 'LIKE',
+			);
+		}
+	
+		if (!empty($atts['year'])) {
+			$args['meta_query'][] = array(
+				'key' => 'year',
+				'value' => $atts['year'],
+				'compare' => 'LIKE',
+			);
+		}
+	
+		if (!empty($atts['category'])) {
+			$args['tax_query'][] = array(
+				'taxonomy' => 'category',
+				'field' => 'slug',
+				'terms' => $atts['category'],
+			);
+		}
+	
+		if (!empty($atts['tag'])) {
+			$args['tax_query'][] = array(
+				'taxonomy' => 'tags',
+				'field' => 'slug',
+				'terms' => $atts['tag'],
+			);
+		}
+	
+		if (!empty($atts['publisher'])) {
+			$args['meta_query'][] = array(
+				'key' => 'pub_id',
+				'value' => $atts['publisher'],
+				'compare' => 'LIKE',
+			);
+		}
+	
+		$query = new WP_Query($args);
+	
+		$output = '<div class="wp-book-shortcode">';
+		if ($query->have_posts()) {
+			while ($query->have_posts()) {
+				$query->the_post();
+				$tags = get_the_terms(get_the_ID(), 'tags');
+				$tag_list = '';
+				if ($tags && !is_wp_error($tags)) {
+					$tag_links = array();
+					foreach ($tags as $tag) {
+						$tag_links[] = '<a href="' . get_term_link($tag->term_id) . '">' . $tag->name . '</a>';
+					}
+					$tag_list = join(', ', $tag_links);
+				}
+	
+				$output .= '<div class="book">';
+				$output .= '<h2><strong>' . get_the_title() . '</strong></h2>';
+				$output .= '<p><strong>' . __('Author:', 'wp-book') . '</strong> ' . get_post_meta(get_the_ID(), 'author_id', true) . '</p>';
+				$output .= '<p><strong>' . __('Year:', 'wp-book') . '</strong> ' . get_post_meta(get_the_ID(), 'year', true) . '</p>';
+				$output .= '<p><strong>' . __('Publisher:', 'wp-book') . '</strong> ' . get_post_meta(get_the_ID(), 'pub_id', true) . '</p>';
+				$output .= '<p><strong>' . __('Category:', 'wp-book') . '</strong> ' . get_the_category_list(', ') . '</p>';
+				$output .= '<p><strong>' . __('Tags:', 'wp-book') . '</strong> ' . $tag_list . '</p>';
+				$output .= '</div>';
+			}
+		} else {
+			$output .= '<p>' . __('No books found', 'wp-book') . '</p>';
+		}
+		$output .= '</div>';
+	
+		wp_reset_postdata();
+	
+		return $output;
+	}
+	
+
+
 }
-
-public function render_book_meta_box($post) {
-    // Nonce field for security
-    wp_nonce_field( 'save_book_meta', 'book_meta_nonce' );
-
-    // Retrieve current meta data
-    $book_name = get_post_meta( $post->ID, '_book_name', true );
-    $author_name = get_post_meta( $post->ID, '_author_name', true );
-    $price = get_post_meta( $post->ID, '_price', true );
-    $publisher = get_post_meta( $post->ID, '_publisher', true );
-    $year = get_post_meta( $post->ID, '_year', true );
-    $edition = get_post_meta( $post->ID, '_edition', true );
-    $url = get_post_meta( $post->ID, '_url', true );
-
-    // Display the form fields
-    ?>
-    <table class="form-table">
-                <tr>
-                    <th><label for="book_name">Book Name</label></th>
-                    <td><input type="text" id="book_name" name="book_name" value="<?php echo esc_attr($book_name); ?>" class="regular-text"></td>
-                </tr>
-                <tr>
-                    <th><label for="author_name">Author Name</label></th>
-                    <td><input type="text" id="author_name" name="author_name" value="<?php echo esc_attr($author_name); ?>" class="regular-text"></td>
-                </tr>
-                <tr>
-                    <th><label for="price">Price</label></th>
-                    <td><input type="text" id="price" name="price" value="<?php echo esc_attr($price); ?>" class="regular-text"></td>
-                </tr>
-                <tr>
-                    <th><label for="publisher">Publisher</label></th>
-                    <td><input type="text" id="publisher" name="publisher" value="<?php echo esc_attr($publisher); ?>" class="regular-text"></td>
-                </tr>
-                <tr>
-                    <th><label for="year">Year</label></th>
-                    <td><input type="text" id="year" name="year" value="<?php echo esc_attr($year); ?>" class="regular-text"></td>
-                </tr>
-                <tr>
-                    <th><label for="edition">Edition</label></th>
-                    <td><input type="text" id="edition" name="edition" value="<?php echo esc_attr($edition); ?>" class="regular-text"></td>
-                </tr>
-                <tr>
-                    <th><label for="url">URL</label></th>
-                    <td><input type="text" id="url" name="url" value="<?php echo esc_attr($url); ?>" class="regular-text"></td>
-                </tr>
-            </table>
-    <?php
-}
-
-public function save_book_meta($post_id) {
-    // Check if nonce is set
-    if ( ! isset( $_POST['book_meta_nonce'] ) ) {
-        return $post_id;
-    }
-
-    $nonce = $_POST['book_meta_nonce'];
-
-    // Verify nonce
-    if ( ! wp_verify_nonce( $nonce, 'save_book_meta' ) ) {
-        return $post_id;
-    }
-
-    // Check for autosave
-    if ( defined( 'DOING_AUTOSAVE' ) && DOING_AUTOSAVE ) {
-        return $post_id;
-    }
-
-    // Check user permissions
-    if ( 'books' == $_POST['post_type'] ) {
-        if ( ! current_user_can( 'edit_post', $post_id ) ) {
-            return $post_id;
-        }
-    }
-
-    // Sanitize user input
-    $book_name = sanitize_text_field( $_POST['book_name'] );
-    $author_name = sanitize_text_field( $_POST['author_name'] );
-    $price = sanitize_text_field( $_POST['price'] );
-    $publisher = sanitize_text_field( $_POST['publisher'] );
-    $year = sanitize_text_field( $_POST['year'] );
-    $edition = sanitize_text_field( $_POST['edition'] );
-    $url = sanitize_text_field( $_POST['url'] );
-
-    // Update the meta fields
-    update_post_meta( $post_id, '_book_name', $book_name );
-    update_post_meta( $post_id, '_author_name', $author_name );
-    update_post_meta( $post_id, '_price', $price );
-    update_post_meta( $post_id, '_publisher', $publisher );
-    update_post_meta( $post_id, '_year', $year );
-    update_post_meta( $post_id, '_edition', $edition );
-    update_post_meta( $post_id, '_url', $url );
-}
-
-// Add this function to your Wp_Book_Admin class
-
-public function add_settings_menu() {
-    add_submenu_page(
-        'edit.php?post_type=books', // Parent menu slug
-        'Book Settings', // Page title
-        'Settings', // Menu title
-        'manage_options', // Capability
-        'book-settings', // Menu slug
-        array($this, 'display_settings_page') // Callback function
-    );
-}
-public function display_settings_page() {
-    ?>
-    <div class="wrap">
-        <h1>Book Settings</h1>
-        <form method="post" action="options.php">
-            <?php
-            settings_fields('book_settings_group'); // Settings group
-            do_settings_sections('book-settings'); // Settings page
-            submit_button();
-            ?>
-        </form>
-    </div>
-    <?php
-}
-public function register_settings() {
-    // Register settings
-    register_setting('book_settings_group', 'book_currency');
-    register_setting('book_settings_group', 'books_per_page');
-
-    // Add settings section
-    add_settings_section(
-        'book_settings_section',
-        'General Settings',
-        null,
-        'book-settings'
-    );
-
-    // Add settings fields
-    add_settings_field(
-        'book_currency',
-        'Currency',
-        array($this, 'currency_field_callback'),
-        'book-settings',
-        'book_settings_section'
-    );
-
-    add_settings_field(
-        'books_per_page',
-        'Books Per Page',
-        array($this, 'books_per_page_field_callback'),
-        'book-settings',
-        'book_settings_section'
-    );
-}
-
-
-public function currency_field_callback() {
-    $currency = get_option('book_currency', 'USD');
-    echo '<input type="text" name="book_currency" value="' . esc_attr($currency) . '" />';
-}
-
-public function books_per_page_field_callback() {
-    $books_per_page = get_option('books_per_page', 10);
-    echo '<input type="number" name="books_per_page" value="' . esc_attr($books_per_page) . '" min="1" />';
-}
-
-public function add_book_meta($book_id, $meta_key, $meta_value) {
-    global $wpdb;
-    $table_name = $wpdb->prefix . 'book_meta';
-
-    $wpdb->insert(
-        $table_name,
-        array(
-            'book_id' => $book_id,
-            'meta_key' => $meta_key,
-            'meta_value' => $meta_value
-        ),
-        array('%d', '%s', '%s')
-    );
-}
-
-public function update_book_meta($book_id, $meta_key, $meta_value) {
-    global $wpdb;
-    $table_name = $wpdb->prefix . 'book_meta';
-
-    $wpdb->update(
-        $table_name,
-        array('meta_value' => $meta_value),
-        array(
-            'book_id' => $book_id,
-            'meta_key' => $meta_key
-        ),
-        array('%s'),
-        array('%d', '%s')
-    );
-}
-
-public function get_book_meta($book_id, $meta_key = '') {
-    global $wpdb;
-    $table_name = $wpdb->prefix . 'book_meta';
-
-    if ($meta_key) {
-        $query = $wpdb->prepare(
-            "SELECT meta_value FROM $table_name WHERE book_id = %d AND meta_key = %s",
-            $book_id,
-            $meta_key
-        );
-        return $wpdb->get_var($query);
-    } else {
-        $query = $wpdb->prepare(
-            "SELECT meta_key, meta_value FROM $table_name WHERE book_id = %d",
-            $book_id
-        );
-        return $wpdb->get_results($query);
-    }
-    
-}
-
-public function delete_book_meta($book_id, $meta_key) {
-    global $wpdb;
-    $table_name = $wpdb->prefix . 'book_meta';
-
-    $wpdb->delete(
-        $table_name,
-        array(
-            'book_id' => $book_id,
-            'meta_key' => $meta_key
-        ),
-        array('%d', '%s')
-    );
-}
-
-public function save_bookdetails_fields($post_id) {
-    // Check for nonce security, autosave, etc.
-
-    if (isset($_POST['book_meta'])) {
-        $book_meta = $_POST['book_meta']; // Assuming data is coming from form inputs
-
-        foreach ($book_meta as $meta_key => $meta_value) {
-            if ($this->get_book_meta($post_id, $meta_key)) {
-                $this->update_book_meta($post_id, $meta_key, $meta_value);
-            } else {
-                $this->add_book_meta($post_id, $meta_key, $meta_value);
-            }
-        }
-    }
-}
-
-}
-
 class WP_Book_Books_Widget extends WP_Widget
 {
-    public function __construct()
-    {
-        parent::__construct(
-            'wp_book_books_widget', // Base ID
-            __('Books by Category', 'wp-book'), // Name
-            array('description' => __('Displays books from a selected category', 'wp-book')) // Args
-        );
-    }
+	public function __construct()
+	{
+		parent::__construct(
+			'wp_book_books_widget', // Base ID
+			__('Books by Category', 'wp-book'), // Name
+			array('description' => __('Displays books from a selected category', 'wp-book')) // Args
+		);
+	}
 
-    public function widget($args, $instance)
-    {
-        $static_title = __('Books by Category', 'wp-book');
+	public function widget($args, $instance)
+	{
+		$static_title = __('Books by Category', 'wp-book');
 
-        echo $args['before_widget'];
-        echo $args['before_title'] . $static_title . $args['after_title'];
+		echo $args['before_widget'];
+		echo $args['before_title'] . $static_title . $args['after_title'];
 
-        $categories = get_terms(array(
-            'taxonomy' => 'category',
-            'hide_empty' => false,
-        ));
+		$categories = get_terms(
+			array(
+				'taxonomy' => 'category',
+				'hide_empty' => false,
+			)
+		);
 
-        foreach ($categories as $cat) {
-            $query_args = array(
-                'post_type' => 'books',
-                'posts_per_page' => -1,
-                'tax_query' => array(
-                    array(
-                        'taxonomy' => 'category',
-                        'field' => 'term_id',
-                        'terms' => $cat->term_id,
-                    ),
-                ),
-            );
+		foreach ($categories as $cat) {
+			$query_args = array(
+				'post_type' => 'books',
+				'posts_per_page' => -1,
+				'tax_query' => array(
+					array(
+						'taxonomy' => 'category',
+						'field' => 'term_id',
+						'terms' => $cat->term_id,
+					),
+				),
+			);
 
-            $query = new WP_Query($query_args);
+			$query = new WP_Query($query_args);
 
-            if ($query->have_posts()) {
-                echo '<h3>' . esc_html($cat->name) . '</h3>';
-                echo '<ul style="padding-left: 20px;">'; // Indentation for books
-                while ($query->have_posts()) {
-                    $query->the_post();
-                    echo '<li><a href="' . get_the_permalink() . '">' . get_the_title() . '</a></li>';
-                }
-                echo '</ul>';
-            }
-            wp_reset_postdata();
-        }
+			if ($query->have_posts()) {
+				echo '<h3>' . esc_html($cat->name) . '</h3>';
+				echo '<ul style="padding-left: 20px;">'; // Indentation for books
+				while ($query->have_posts()) {
+					$query->the_post();
+					echo '<li><a href="' . get_the_permalink() . '">' . get_the_title() . '</a></li>';
+				}
+				echo '</ul>';
+			}
+			wp_reset_postdata();
+		}
 
-        echo $args['after_widget'];
-    }
+		echo $args['after_widget'];
+	}
 
-    public function form($instance)
-    {
-        // Optionally, you can still allow a custom title to be set, but it won't be used in the widget output
-        $title = !empty($instance['title']) ? $instance['title'] : '';
-        ?>
-        <p>
-            <label for="<?php echo $this->get_field_id('title'); ?>"><?php _e('Title (not used):', 'wp-book'); ?></label>
-            <input class="widefat" id="<?php echo $this->get_field_id('title'); ?>" name="<?php echo $this->get_field_name('title'); ?>" type="text" value="<?php echo esc_attr($title); ?>" disabled>
-        </p>
-        <?php
-    }
+	public function form($instance)
+	{
+		// Optionally, you can still allow a custom title to be set, but it won't be used in the widget output
+		$title = !empty($instance['title']) ? $instance['title'] : '';
+		?>
+		<p>
+			<label for="<?php echo $this->get_field_id('title'); ?>"><?php _e('Title (not used):', 'wp-book'); ?></label>
+			<input class="widefat" id="<?php echo $this->get_field_id('title'); ?>"
+				name="<?php echo $this->get_field_name('title'); ?>" type="text" value="<?php echo esc_attr($title); ?>"
+				disabled>
+		</p>
+		<?php
+	}
 
-    public function update($new_instance, $old_instance)
-    {
-        $instance = array();
-        $instance['title'] = (!empty($new_instance['title'])) ? strip_tags($new_instance['title']) : '';
+	public function update($new_instance, $old_instance)
+	{
+		$instance = array();
+		$instance['title'] = (!empty($new_instance['title'])) ? strip_tags($new_instance['title']) : '';
 
-        return $instance;
-    }
+		return $instance;
+	}
 }
-
-class WP_Book_Top_Tags_Widget extends WP_Widget
-{
-    public function __construct()
-    {
-        parent::__construct(
-            'wp_book_top_tags_widget', // Base ID
-            __('Top Tags by Post Count', 'wp-book'), // Name
-            array('description' => __('Displays top tags by post count', 'wp-book')) // Args
-        );
-    }
-
-    public function widget($args, $instance)
-    {
-        $static_title = __('Top Tags by Post Count', 'wp-book');
-
-        echo $args['before_widget'];
-        echo $args['before_title'] . $static_title . $args['after_title'];
-
-        $tags = get_terms(array(
-            'taxonomy' => 'tags',
-            'orderby' => 'count',
-            'order' => 'DESC',
-            'number' => 5,
-        ));
-
-        if (!empty($tags) && !is_wp_error($tags)) {
-            echo '<ul>';
-            foreach ($tags as $tag) {
-                echo '<li>' . esc_html($tag->name) . ' (' . esc_html($tag->count) . ' posts)</li>';
-            }
-            echo '</ul>';
-        } else {
-            echo '<p>' . __('No tags found.', 'wp-book') . '</p>';
-        }
-
-        echo $args['after_widget'];
-    }
-
-    public function form($instance)
-    {
-        // Optionally, you can allow a custom title, but it won't be used in the widget output
-        $title = !empty($instance['title']) ? $instance['title'] : '';
-        ?>
-        <p>
-            <label for="<?php echo $this->get_field_id('title'); ?>"><?php _e('Title (not used):', 'wp-book'); ?></label>
-            <input class="widefat" id="<?php echo $this->get_field_id('title'); ?>" name="<?php echo $this->get_field_name('title'); ?>" type="text" value="<?php echo esc_attr($title); ?>" disabled>
-        </p>
-        <?php
-    }
-
-    public function update($new_instance, $old_instance)
-    {
-        $instance = array();
-        $instance['title'] = (!empty($new_instance['title'])) ? strip_tags($new_instance['title']) : '';
-
-        return $instance;
-    }
-}
-
