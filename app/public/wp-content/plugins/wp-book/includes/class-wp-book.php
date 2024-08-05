@@ -66,7 +66,7 @@ class Wp_Book
 		$this->load_dependencies();
 		$this->set_locale();
 		$this->define_admin_hooks();
-		//$this->define_public_hooks();
+		$this->define_public_hooks();
 	}
 
 	/**
@@ -163,8 +163,8 @@ class Wp_Book
 		$this->loader->add_action('save_post', $plugin_admin, 'save_bookdetails_fields');
 		$this->loader->add_action('admin_menu', $plugin_admin, 'add_settings_page');
 		$this->loader->add_action('admin_init', $plugin_admin, 'register_settings');
-		$this->loader->add_action('init', $plugin_admin, 'register_shortcodes');
-        $this->loader->add_action('wp_dashboard_setup', $plugin_admin, 'register_top_categories_dashboard_widget');
+		
+        $this->loader->add_action('wp_dashboard_setup', $plugin_admin, 'wp_book_add_dashboard_widgets');
 
         
 	}
@@ -176,15 +176,16 @@ class Wp_Book
 	 * @since    1.0.0
 	 * @access   private
 	 */
-	/*private function define_public_hooks()
+	private function define_public_hooks()
 	{
 
 		$plugin_public = new Wp_Book_Public($this->get_plugin_name(), $this->get_version());
 
 		$this->loader->add_action('wp_enqueue_scripts', $plugin_public, 'enqueue_styles');
 		$this->loader->add_action('wp_enqueue_scripts', $plugin_public, 'enqueue_scripts');
+		$this->loader->add_action('init', $plugin_public, 'register_shortcodes');
 
-	}*/
+	}
 
 	/**
 	 * Run the loader to execute all of the hooks with WordPress.

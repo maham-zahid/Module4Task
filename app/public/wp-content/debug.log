@@ -4128,3 +4128,37 @@ Stack trace:
 [05-Aug-2024 06:18:24 UTC] WordPress database error Table 'local.wp_custom_meta_table' doesn't exist for query SELECT meta_value FROM wp_custom_meta_table WHERE post_id = 71 AND meta_key = 'year' made by require('wp-admin/edit-form-blocks.php'), the_block_editor_meta_boxes, do_meta_boxes, Wp_Book_Admin->bookdetails_meta_box_callback, Wp_Book_Admin->bookdetails_field_generator
 [05-Aug-2024 06:18:24 UTC] WordPress database error Table 'local.wp_custom_meta_table' doesn't exist for query SELECT meta_value FROM wp_custom_meta_table WHERE post_id = 71 AND meta_key = 'edit_id' made by require('wp-admin/edit-form-blocks.php'), the_block_editor_meta_boxes, do_meta_boxes, Wp_Book_Admin->bookdetails_meta_box_callback, Wp_Book_Admin->bookdetails_field_generator
 [05-Aug-2024 06:18:24 UTC] WordPress database error Table 'local.wp_custom_meta_table' doesn't exist for query SELECT meta_value FROM wp_custom_meta_table WHERE post_id = 71 AND meta_key = 'url' made by require('wp-admin/edit-form-blocks.php'), the_block_editor_meta_boxes, do_meta_boxes, Wp_Book_Admin->bookdetails_meta_box_callback, Wp_Book_Admin->bookdetails_field_generator
+[05-Aug-2024 09:08:44 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Wp_Book_Admin does not have a method "register_top_categories_dashboard_widget" in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\includes\dashboard.php(135): do_action('wp_dashboard_se...')
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\index.php(15): wp_dashboard_setup()
+#4 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php on line 324
+[05-Aug-2024 09:08:51 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Wp_Book_Admin does not have a method "register_top_categories_dashboard_widget" in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\includes\dashboard.php(135): do_action('wp_dashboard_se...')
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\index.php(15): wp_dashboard_setup()
+#4 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php on line 324
+[05-Aug-2024 09:08:53 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Wp_Book_Admin does not have a method "register_top_categories_dashboard_widget" in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\includes\dashboard.php(135): do_action('wp_dashboard_se...')
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\index.php(15): wp_dashboard_setup()
+#4 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php on line 324
+[05-Aug-2024 09:08:54 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Wp_Book_Admin does not have a method "register_top_categories_dashboard_widget" in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\includes\dashboard.php(135): do_action('wp_dashboard_se...')
+#3 C:\Users\hp\Local Sites\customplugin\app\public\wp-admin\index.php(15): wp_dashboard_setup()
+#4 {main}
+  thrown in C:\Users\hp\Local Sites\customplugin\app\public\wp-includes\class-wp-hook.php on line 324
+[05-Aug-2024 09:47:18 UTC] PHP Parse error:  Unmatched '}' in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\public\class-wp-book-public.php on line 182
+[05-Aug-2024 09:47:18 UTC] PHP Parse error:  Unmatched '}' in C:\Users\hp\Local Sites\customplugin\app\public\wp-content\plugins\wp-book\public\class-wp-book-public.php on line 182
