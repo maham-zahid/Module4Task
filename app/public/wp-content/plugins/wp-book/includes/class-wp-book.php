@@ -12,7 +12,7 @@
  * @since      1.0.0
  * @package    Wp_Book
  * @subpackage Wp_Book/includes
- * @author     Amna <hinazaniz@gmail.com>
+ * @author     Maham Zahid <mahamzahid333@gmail.com>
  */
 class Wp_Book
 {
@@ -66,7 +66,7 @@ class Wp_Book
 		$this->load_dependencies();
 		$this->set_locale();
 		$this->define_admin_hooks();
-		$this->define_public_hooks();
+		//$this->define_public_hooks();
 	}
 
 	/**
@@ -106,10 +106,18 @@ class Wp_Book
 		require_once plugin_dir_path(dirname(__FILE__)) . 'admin/class-wp-book-admin.php';
 
 		/**
-		 * The class responsible for defining all actions that occur in the public-facing
-		 * side of the site.
+		 * The class responsible for activation of custom plugin
 		 */
-		require_once plugin_dir_path(dirname(__FILE__)) . 'public/class-wp-book-public.php';
+		require_once plugin_dir_path(dirname(__FILE__)) . 'includes/class-wp-book-activator.php';
+
+
+		/**
+		 * The class responsible for deactivation of custom plugin
+		 */
+		require_once plugin_dir_path(dirname(__FILE__)) . 'includes/class-wp-book-deactivator.php';
+
+	    require_once plugin_dir_path(dirname(__FILE__)) . 'public/class-wp-book-public.php';
+
 
 		$this->loader = new Wp_Book_Loader();
 
@@ -158,6 +166,7 @@ class Wp_Book
 		$this->loader->add_action('init', $plugin_admin, 'register_shortcodes');
         $this->loader->add_action('wp_dashboard_setup', $plugin_admin, 'register_top_categories_dashboard_widget');
 
+        
 	}
 
 	/**
@@ -167,7 +176,7 @@ class Wp_Book
 	 * @since    1.0.0
 	 * @access   private
 	 */
-	private function define_public_hooks()
+	/*private function define_public_hooks()
 	{
 
 		$plugin_public = new Wp_Book_Public($this->get_plugin_name(), $this->get_version());
@@ -175,7 +184,7 @@ class Wp_Book
 		$this->loader->add_action('wp_enqueue_scripts', $plugin_public, 'enqueue_styles');
 		$this->loader->add_action('wp_enqueue_scripts', $plugin_public, 'enqueue_scripts');
 
-	}
+	}*/
 
 	/**
 	 * Run the loader to execute all of the hooks with WordPress.
@@ -222,3 +231,8 @@ class Wp_Book
 	}
 
 }
+ // Register activation hook
+register_activation_hook(__FILE__, array('Wp_Book_Activator', 'activate'));
+
+// Register deactivation hook
+register_deactivation_hook(__FILE__, array('Wp_Book_Deactivator', 'deactivate_plugin'));
